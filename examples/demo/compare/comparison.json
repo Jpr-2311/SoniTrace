@@ -1,0 +1,360 @@
+{
+  "report_type": "sonictrace.comparison",
+  "reference": {
+    "path": "D:\\SoniTrace\\examples\\demo\\original.wav",
+    "sha256": "d20a5c1b35d90e0adb339d98b35fda538ad87a87ff29dbd209d812cc811fd45d",
+    "sample_rate": 44100,
+    "channels": 1,
+    "frames": 352800,
+    "duration_s": 8.0,
+    "subtype": "PCM_16",
+    "bit_depth": 16,
+    "integer_pcm": true,
+    "decoded_via": "libsndfile",
+    "lossy_decoded": false,
+    "warnings": []
+  },
+  "questioned": {
+    "path": "D:\\SoniTrace\\examples\\demo\\manipulated.wav",
+    "sha256": "3fd6da7e65a43d55a43911f860b9b0a944bd0469ac368da7ed53a441b28c85e5",
+    "sample_rate": 44100,
+    "channels": 1,
+    "frames": 354922,
+    "duration_s": 8.048118,
+    "subtype": "PCM_16",
+    "bit_depth": 16,
+    "integer_pcm": true,
+    "decoded_via": "libsndfile",
+    "lossy_decoded": false,
+    "warnings": []
+  },
+  "identical_files": false,
+  "notes": [],
+  "global_offset_s": 0.0,
+  "matched_block_fraction": 0.84375,
+  "bandwidth": {
+    "reference": {
+      "found": false,
+      "cutoff_hz": null,
+      "cutoff_to_nyquist": null,
+      "depth_db": null,
+      "transition_hz": null,
+      "stopband_floor_db": -92.348493,
+      "passband_level_db": null,
+      "nyquist_hz": 22050.0,
+      "steep": false,
+      "reason": "no broadband content rises above the near-Nyquist floor"
+    },
+    "questioned": {
+      "found": false,
+      "cutoff_hz": null,
+      "cutoff_to_nyquist": null,
+      "depth_db": null,
+      "transition_hz": null,
+      "stopband_floor_db": -90.625051,
+      "passband_level_db": null,
+      "nyquist_hz": 22050.0,
+      "steep": false,
+      "reason": "no broadband content rises above the near-Nyquist floor"
+    }
+  },
+  "findings": [
+    {
+      "type": "alignment_step",
+      "time_s": 2.5,
+      "between_s": [
+        2.0,
+        2.5
+      ],
+      "offset_change_samples": 15518,
+      "offset_change_s": 0.351882,
+      "statement": "About 0.352 s of material was removed from the questioned file between 2.00 s and 2.75 s (alignment offset step)."
+    },
+    {
+      "type": "alignment_step",
+      "time_s": 4.5,
+      "between_s": [
+        3.75,
+        4.5
+      ],
+      "offset_change_samples": -17640,
+      "offset_change_s": -0.4,
+      "statement": "About 0.400 s of material was inserted into the questioned file between 3.75 s and 4.75 s (alignment offset step)."
+    },
+    {
+      "type": "unmatched_block",
+      "time_s": 4.25,
+      "ncc": 0.133388,
+      "statement": "Block at 4.25 s has no counterpart in the reference within +/-2 s (NCC 0.13)."
+    },
+    {
+      "type": "unmatched_block",
+      "time_s": 6.25,
+      "ncc": 0.477436,
+      "statement": "Block at 6.25 s has no counterpart in the reference within +/-2 s (NCC 0.48)."
+    }
+  ],
+  "blocks": [
+    {
+      "time_s": 0.0,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 0.25,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 0.5,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 0.75,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 1.0,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 1.25,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 1.5,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 1.75,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 2.0,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 0,
+      "offset_s": 0.0,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 2.25,
+      "ncc": 0.847777,
+      "silent": false,
+      "offset_samples": 15518,
+      "offset_s": 0.351882,
+      "gain_db": -0.928712
+    },
+    {
+      "time_s": 2.5,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 15518,
+      "offset_s": 0.351882,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 2.75,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 15518,
+      "offset_s": 0.351882,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 3.0,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 15518,
+      "offset_s": 0.351882,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 3.25,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 15518,
+      "offset_s": 0.351882,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 3.5,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 15518,
+      "offset_s": 0.351882,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 3.75,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": 15518,
+      "offset_s": 0.351882,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 4.0,
+      "ncc": 0.692812,
+      "silent": false,
+      "offset_samples": 15518,
+      "offset_s": 0.351882,
+      "gain_db": -3.189415
+    },
+    {
+      "time_s": 4.25,
+      "ncc": 0.133388,
+      "silent": false,
+      "offset_samples": 22878,
+      "offset_s": 0.518776,
+      "gain_db": -67.113257
+    },
+    {
+      "time_s": 4.5,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 4.75,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 5.0,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 5.25,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 5.5,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 5.75,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 6.0,
+      "ncc": 0.833017,
+      "silent": false,
+      "offset_samples": -53148,
+      "offset_s": -1.20517,
+      "gain_db": -1.543336
+    },
+    {
+      "time_s": 6.25,
+      "ncc": 0.477436,
+      "silent": false,
+      "offset_samples": -79427,
+      "offset_s": -1.801066,
+      "gain_db": 19.972128
+    },
+    {
+      "time_s": 6.5,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 6.75,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 7.0,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 7.25,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 7.5,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    },
+    {
+      "time_s": 7.75,
+      "ncc": 1.0,
+      "silent": false,
+      "offset_samples": -2122,
+      "offset_s": -0.048118,
+      "gain_db": 0.0
+    }
+  ],
+  "limitations": [
+    "Assumes the reference is the original or a faithful copy.",
+    "Heavy processing (lossy coding at low bitrate, time-stretching) lowers block NCC and can hide alignment steps.",
+    "Insertions/removals shorter than ~2 samples or longer than +/-2 s are not resolved."
+  ]
+}

@@ -1,0 +1,2713 @@
+{
+  "report_type": "sonictrace.forensic_analysis",
+  "schema_version": "1.0",
+  "generated_utc": "2026-11-06T18:20:21.726437+00:00",
+  "tool": {
+    "name": "SonicTrace",
+    "version": "0.1.0",
+    "methodology_version": "1.2"
+  },
+  "file_identity": {
+    "file_name": "manipulated.wav",
+    "path": "D:\\SoniTrace\\examples\\demo\\manipulated.wav",
+    "size_bytes": 709888,
+    "sha256": "3fd6da7e65a43d55a43911f860b9b0a944bd0469ac368da7ed53a441b28c85e5",
+    "container": "wav",
+    "analysed_utc": "2026-11-06T18:20:21.500804+00:00"
+  },
+  "integrity": {
+    "sha256_before": "3fd6da7e65a43d55a43911f860b9b0a944bd0469ac368da7ed53a441b28c85e5",
+    "sha256_after": "3fd6da7e65a43d55a43911f860b9b0a944bd0469ac368da7ed53a441b28c85e5",
+    "unchanged": true,
+    "access_mode": "read-only"
+  },
+  "metadata": {
+    "identity": {
+      "file_name": "manipulated.wav",
+      "path": "D:\\SoniTrace\\examples\\demo\\manipulated.wav",
+      "size_bytes": 709888,
+      "extension": ".wav",
+      "container_from_content": "wav",
+      "container_description": "RIFF/WAVE (or RF64)",
+      "container_from_extension": "wav",
+      "filesystem_modified_utc": "2026-11-06T18:20:15.472271+00:00",
+      "filesystem_changed_or_created_utc": "2026-11-06T17:19:38.191470+00:00"
+    },
+    "ffprobe": {
+      "available": true,
+      "ok": true,
+      "format_name": "wav",
+      "format_long_name": "WAV / WAVE (Waveform Audio)",
+      "audio_streams": 1,
+      "total_streams": 1
+    },
+    "technical": {
+      "codec_name": "pcm_s16le",
+      "codec_long_name": "PCM signed 16-bit little-endian",
+      "sample_rate": 44100,
+      "channels": 1,
+      "channel_layout": null,
+      "sample_fmt": "s16",
+      "bits_per_sample": 16,
+      "bits_per_raw_sample": null,
+      "stream_bit_rate": 705600,
+      "stream_duration_s": 8.048118,
+      "format_bit_rate": 705643,
+      "format_duration_s": 8.048118
+    },
+    "tags": {},
+    "software_signatures": []
+  },
+  "structure": {
+    "container": "wav",
+    "parser": "sonictrace.riff_wave",
+    "details": {
+      "file_size": 709888,
+      "riff_id": "RIFF",
+      "riff_size_declared": 709880,
+      "form_type": "WAVE",
+      "chunks": [
+        {
+          "chunk_id": "fmt ",
+          "offset": 12,
+          "size": 16,
+          "available": 16
+        },
+        {
+          "chunk_id": "data",
+          "offset": 36,
+          "size": 709844,
+          "available": 709844
+        }
+      ],
+      "fmt": {
+        "format_tag": 1,
+        "format_name": "PCM",
+        "channels": 1,
+        "sample_rate": 44100,
+        "byte_rate": 88200,
+        "block_align": 2,
+        "bits_per_sample": 16,
+        "cb_size": null,
+        "valid_bits": null,
+        "channel_mask": null,
+        "subformat_tag": null,
+        "format_description": "PCM"
+      },
+      "data_offset": 44,
+      "data_size_available": 709844,
+      "data_size_declared": 709844,
+      "frame_count": 354922,
+      "declared_duration_s": 8.048118,
+      "fact_samples": null,
+      "ds64": null,
+      "info": {},
+      "bext": null
+    },
+    "issues": [],
+    "signatures": [],
+    "tags": {}
+  },
+  "audio": {
+    "sample_rate": 44100,
+    "channels": 1,
+    "frames": 354922,
+    "duration_s": 8.048118,
+    "subtype": "PCM_16",
+    "bit_depth": 16,
+    "integer_pcm": true,
+    "decoded_via": "libsndfile",
+    "lossy_decoded": false,
+    "warnings": []
+  },
+  "signal_summary": {
+    "peak_dbfs": -8.110681,
+    "true_peak_dbfs_estimate": -8.105154,
+    "rms_dbfs": -25.547137,
+    "crest_factor_db": 17.436456,
+    "dc_offset_per_channel": [
+      9e-06
+    ],
+    "clipping_runs_3plus_samples": 0,
+    "clipped_samples": 0,
+    "frame_rms_db_p5": -45.464006,
+    "frame_rms_db_p50": -41.760654,
+    "frame_rms_db_p95": -16.097319,
+    "dynamic_range_db_p95_p5": 29.366687,
+    "zero_crossing_rate_mean": 0.041685,
+    "zero_crossing_rate_median": 0.028823,
+    "noise_floor_db": -45.241717,
+    "snr_estimate_db": 25.260286,
+    "spectral_centroid_median_hz": 192.541658,
+    "spectral_bandwidth_median_hz": 1008.396661,
+    "spectral_rolloff85_median_hz": 172.265625,
+    "spectral_flatness_median": 0.00563,
+    "mfcc_mean": [
+      -275.569485,
+      62.28222,
+      34.2951,
+      18.886804,
+      8.536573,
+      4.899028,
+      3.724515,
+      3.963287,
+      4.307067,
+      4.661134,
+      4.052358,
+      2.513282,
+      0.764395
+    ],
+    "band_limit": {
+      "found": false,
+      "cutoff_hz": null,
+      "cutoff_to_nyquist": null,
+      "depth_db": null,
+      "transition_hz": null,
+      "stopband_floor_db": -90.625051,
+      "passband_level_db": null,
+      "nyquist_hz": 22050.0,
+      "steep": false,
+      "reason": "no broadband content rises above the near-Nyquist floor"
+    },
+    "stft": {
+      "n_fft": 2048,
+      "hop": 512,
+      "window": "hann",
+      "frames": 691
+    }
+  },
+  "frequency_distribution": [
+    {
+      "band_hz": [
+        0,
+        250
+      ],
+      "energy_percent": 36.440104
+    },
+    {
+      "band_hz": [
+        250,
+        500
+      ],
+      "energy_percent": 57.648929
+    },
+    {
+      "band_hz": [
+        500,
+        2000
+      ],
+      "energy_percent": 5.091583
+    },
+    {
+      "band_hz": [
+        2000,
+        4000
+      ],
+      "energy_percent": 0.015666
+    },
+    {
+      "band_hz": [
+        4000,
+        8000
+      ],
+      "energy_percent": 0.191362
+    },
+    {
+      "band_hz": [
+        8000,
+        16000
+      ],
+      "energy_percent": 0.344408
+    },
+    {
+      "band_hz": [
+        16000,
+        null
+      ],
+      "energy_percent": 0.267949
+    }
+  ],
+  "assessment": {
+    "local_edit_indicators": "strong",
+    "structural_integrity": "none",
+    "processing_history": [
+      {
+        "topic": "lossy_coding",
+        "status": "not_indicated",
+        "statement": "No band-limit or spectral-hole fingerprint of lossy coding was measured.",
+        "supporting_findings": [],
+        "alternatives": [
+          "High-bitrate or dithered decodes can leave no measurable fingerprint"
+        ]
+      },
+      {
+        "topic": "upsampling",
+        "status": "not_indicated",
+        "statement": "No empty band below Nyquist.",
+        "supporting_findings": [],
+        "alternatives": [
+          "Downsampling and high-quality resampling to a lower rate leave no measurable trace"
+        ]
+      },
+      {
+        "topic": "container_integrity",
+        "status": "not_indicated",
+        "statement": "No medium or high severity structural inconsistency.",
+        "supporting_findings": [],
+        "alternatives": []
+      }
+    ],
+    "summary": "Local edit indicators: STRONG. Structural/metadata inconsistencies: NONE. Processing history: no lossy-coding, upsampling or gain-change fingerprint indicated. These are indicator levels from explicit rules, not probabilities of manipulation.",
+    "rationale": [
+      "EV-001 at 2.320 s is corroborated by enf, waveform.",
+      "EV-002 at 4.300 s is corroborated by enf, silence.",
+      "EV-003 at 6.067 s is corroborated by duplication, enf.",
+      "EV-004 at 6.460 s is corroborated by duplication, enf.",
+      "Medium-severity observed finding SIL-001: Digital silence of 400 ms at 4.100-4.500 s.",
+      "High-severity observed finding DUP-001: Segment at 6.18-6.37 s duplicates 1.18-1.37 s.",
+      "Medium-severity observed finding ENF-001: Mains-hum phase jumps by 2.13 rad near 2.32 s.",
+      "Medium-severity observed finding ENF-002: Mains-hum phase jumps by 6.15 rad near 4.30 s.",
+      "Medium-severity observed finding ENF-003: Mains-hum phase jumps by 0.76 rad near 6.02 s.",
+      "Medium-severity observed finding ENF-004: Mains-hum phase jumps by 0.65 rad near 6.48 s."
+    ],
+    "observed_evidence": [
+      "SPL-001: Isolated waveform discontinuity at 2.3000 s",
+      "SIL-001: Digital silence of 400 ms at 4.100-4.500 s",
+      "DUP-001: Segment at 6.18-6.37 s duplicates 1.18-1.37 s",
+      "ENF-001: Mains-hum phase jumps by 2.13 rad near 2.32 s",
+      "ENF-002: Mains-hum phase jumps by 6.15 rad near 4.30 s",
+      "ENF-003: Mains-hum phase jumps by 0.76 rad near 6.02 s",
+      "ENF-004: Mains-hum phase jumps by 0.65 rad near 6.48 s"
+    ],
+    "statistical_anomalies": [
+      "SPL-002: Abrupt level change of -16.4 dB at 0.257 s",
+      "SPL-003: Abrupt level change of +17.2 dB at 0.811 s",
+      "SPL-004: Abrupt level change of -16.9 dB at 0.988 s",
+      "SPL-005: Abrupt level change of +22.5 dB at 1.217 s",
+      "SPL-006: Abrupt level change of +16.0 dB at 1.477 s",
+      "SPL-007: Abrupt level change of +17.0 dB at 1.527 s",
+      "SPL-008: Abrupt level change of -81.7 dB at 4.101 s",
+      "SPL-009: Abrupt level change of +83.1 dB at 4.500 s",
+      "SPL-010: Abrupt level change of +18.3 dB at 5.059 s",
+      "SPL-011: Abrupt level change of +20.5 dB at 6.216 s",
+      "SPL-012: Abrupt spectral change at 0.813 s",
+      "SPL-013: Abrupt spectral change at 1.521 s",
+      "SPL-014: Abrupt spectral change at 2.868 s",
+      "SPL-015: Abrupt spectral change at 3.146 s",
+      "SPL-016: Abrupt spectral change at 3.634 s",
+      "SPL-017: Abrupt spectral change at 3.971 s",
+      "SPL-018: Abrupt spectral change at 4.110 s",
+      "SPL-019: Abrupt spectral change at 4.493 s",
+      "SPL-020: Abrupt spectral change at 4.702 s",
+      "SPL-021: Abrupt spectral change at 6.467 s",
+      "SPL-022: Abrupt spectral change at 7.697 s",
+      "ANO-001: Statistically unusual window 0.51-1.00 s (flatness)",
+      "ANO-002: Statistically unusual window 1.24-1.73 s (flatness)",
+      "ANO-003: Statistically unusual window 1.97-2.46 s (flatness)",
+      "ANO-004: Statistically unusual window 2.95-3.44 s (level_p10_db)",
+      "ANO-005: Statistically unusual window 3.68-4.17 s (level_p10_db)",
+      "ANO-006: Isolation Forest anomaly 4.17-4.66 s",
+      "ANO-007: Isolation Forest anomaly 3.92-4.41 s",
+      "ANO-008: Isolation Forest anomaly 1.24-1.73 s",
+      "ANO-009: Feature-distribution change point near 2.71 s",
+      "ANO-010: Feature-distribution change point near 3.19 s",
+      "ANO-011: Feature-distribution change point near 3.92 s",
+      "ANO-012: Feature-distribution change point near 4.41 s",
+      "ANO-013: Feature-distribution change point near 4.90 s",
+      "ANO-014: Background texture differs across 5.02 s",
+      "ANO-015: Background texture differs across 4.52 s",
+      "ANO-016: Background texture differs across 3.52 s",
+      "ANO-017: Background texture differs across 4.02 s",
+      "ANO-018: MFCC model change near 1.61 s",
+      "ANO-019: MFCC model change near 2.80 s",
+      "ANO-020: MFCC model change near 4.77 s",
+      "ANO-021: MFCC model change near 6.35 s"
+    ],
+    "possible_explanations": [
+      "EV-001 (2.32 s): Samples removed or inserted here: mains-hum phase continuity is broken at the same point as the waveform",
+      "EV-002 (4.30 s): Insertion of digital silence, or muting/gating, at this point",
+      "EV-002 (4.30 s): Samples removed or inserted here: mains-hum phase continuity is broken at the same point as the waveform",
+      "EV-003 (6.07 s): Copy-move edit: material repeated from elsewhere in the recording (or loop-based/repetitive source material)",
+      "EV-003 (6.07 s): Samples removed or inserted here: mains-hum phase continuity is broken at the same point as the waveform",
+      "EV-004 (6.46 s): Copy-move edit: material repeated from elsewhere in the recording (or loop-based/repetitive source material)",
+      "EV-004 (6.46 s): Samples removed or inserted here: mains-hum phase continuity is broken at the same point as the waveform"
+    ],
+    "cannot_be_concluded": [
+      "Whether the recording is authentic, or whether it truthfully represents the events it appears to capture.",
+      "Whether any detected processing was performed with an intent to deceive; most processing (conversion, normalisation, noise gating, compression) is routine.",
+      "Whether the voice or content is synthetic/AI-generated: no test in this engine addresses speech synthesis.",
+      "That the file is unedited: the absence of indicators does not prove absence of editing. Crossfaded edits at matching levels, consistent backgrounds and re-recording can evade every test.",
+      "How many times the audio was lossily encoded (only the presence of at least one lossy generation is measurable).",
+      "Whether the audio was downsampled: downsampling leaves no trace distinguishable from a native recording at the lower rate.",
+      "Error rates on real casework: all performance figures come from a synthetic benchmark and are not real-world forensic accuracy."
+    ],
+    "not_applicable_tests": [],
+    "false_positive_considerations": [
+      "Digital silence is also produced by noise gates, 'silence removal' and recorder pause functions.",
+      "Level and spectral jumps occur naturally at speech and note onsets; they are reported only as supporting observations.",
+      "Clicks, plosives and percussive transients produce residual impulses similar to hard edits.",
+      "Loop-based music and synthetic signals repeat material legitimately."
+    ]
+  },
+  "global_assessments": [
+    {
+      "topic": "lossy_coding",
+      "status": "not_indicated",
+      "statement": "No band-limit or spectral-hole fingerprint of lossy coding was measured.",
+      "supporting_findings": [],
+      "alternatives": [
+        "High-bitrate or dithered decodes can leave no measurable fingerprint"
+      ]
+    },
+    {
+      "topic": "upsampling",
+      "status": "not_indicated",
+      "statement": "No empty band below Nyquist.",
+      "supporting_findings": [],
+      "alternatives": [
+        "Downsampling and high-quality resampling to a lower rate leave no measurable trace"
+      ]
+    },
+    {
+      "topic": "container_integrity",
+      "status": "not_indicated",
+      "statement": "No medium or high severity structural inconsistency.",
+      "supporting_findings": [],
+      "alternatives": []
+    }
+  ],
+  "correlated_events": [
+    {
+      "event_id": "EV-001",
+      "time_start": 2.17,
+      "time_end": 2.47,
+      "finding_ids": [
+        "ENF-001",
+        "SPL-001"
+      ],
+      "families": [
+        "enf",
+        "statistical",
+        "waveform"
+      ],
+      "independent_families": [
+        "enf",
+        "waveform"
+      ],
+      "statistical_support": [
+        "ANO-003",
+        "ANO-009"
+      ],
+      "strength": "corroborated",
+      "explanations": [
+        "Samples removed or inserted here: mains-hum phase continuity is broken at the same point as the waveform"
+      ],
+      "max_severity": "medium",
+      "center": 2.32
+    },
+    {
+      "event_id": "EV-002",
+      "time_start": 4.019977,
+      "time_end": 4.579977,
+      "finding_ids": [
+        "ENF-002",
+        "SIL-001",
+        "SPL-008",
+        "SPL-009",
+        "SPL-017",
+        "SPL-018",
+        "SPL-019"
+      ],
+      "families": [
+        "enf",
+        "short_time",
+        "silence",
+        "statistical"
+      ],
+      "independent_families": [
+        "enf",
+        "silence"
+      ],
+      "statistical_support": [
+        "ANO-005",
+        "ANO-006",
+        "ANO-007",
+        "ANO-011",
+        "ANO-012",
+        "ANO-015",
+        "ANO-017",
+        "ANO-020"
+      ],
+      "strength": "corroborated",
+      "explanations": [
+        "Insertion of digital silence, or muting/gating, at this point",
+        "Samples removed or inserted here: mains-hum phase continuity is broken at the same point as the waveform"
+      ],
+      "max_severity": "medium",
+      "center": 4.299977
+    },
+    {
+      "event_id": "EV-003",
+      "time_start": 5.87,
+      "time_end": 6.264218,
+      "finding_ids": [
+        "DUP-001",
+        "ENF-003",
+        "SPL-011"
+      ],
+      "families": [
+        "duplication",
+        "enf",
+        "short_time",
+        "statistical"
+      ],
+      "independent_families": [
+        "duplication",
+        "enf"
+      ],
+      "statistical_support": [
+        "ANO-021"
+      ],
+      "strength": "corroborated",
+      "explanations": [
+        "Copy-move edit: material repeated from elsewhere in the recording (or loop-based/repetitive source material)",
+        "Samples removed or inserted here: mains-hum phase continuity is broken at the same point as the waveform"
+      ],
+      "max_severity": "high",
+      "center": 6.067109
+    },
+    {
+      "event_id": "EV-004",
+      "time_start": 6.289977,
+      "time_end": 6.63,
+      "finding_ids": [
+        "DUP-001",
+        "ENF-004",
+        "SPL-011",
+        "SPL-021"
+      ],
+      "families": [
+        "duplication",
+        "enf",
+        "short_time",
+        "statistical"
+      ],
+      "independent_families": [
+        "duplication",
+        "enf"
+      ],
+      "statistical_support": [
+        "ANO-021"
+      ],
+      "strength": "corroborated",
+      "explanations": [
+        "Copy-move edit: material repeated from elsewhere in the recording (or loop-based/repetitive source material)",
+        "Samples removed or inserted here: mains-hum phase continuity is broken at the same point as the waveform"
+      ],
+      "max_severity": "high",
+      "center": 6.459989
+    }
+  ],
+  "tests": [
+    {
+      "test_id": "A1",
+      "name": "Container structure and binary consistency",
+      "module": "A: file structure",
+      "family": "structure",
+      "status": "completed",
+      "summary": "Container structure is internally consistent.",
+      "score": 0.0,
+      "threshold": null,
+      "score_name": "issues of medium/high severity",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "parser": "sonictrace.riff_wave",
+        "issue_codes": []
+      },
+      "finding_ids": [],
+      "limitations": []
+    },
+    {
+      "test_id": "A2",
+      "name": "Declared vs. decoded properties",
+      "module": "A: file structure",
+      "family": "metadata",
+      "status": "completed",
+      "summary": "Declared and decoded properties agree.",
+      "score": 0.0,
+      "threshold": null,
+      "score_name": "mismatches",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "decoded_duration_s": 8.048118,
+        "header_duration_s": 8.048118,
+        "ffprobe_duration_s": 8.048118
+      },
+      "finding_ids": [],
+      "limitations": []
+    },
+    {
+      "test_id": "C1",
+      "name": "Waveform discontinuity (LPC residual impulses)",
+      "module": "C: splicing",
+      "family": "waveform",
+      "status": "completed",
+      "summary": "1 isolated residual impulse(s); 1 reported.",
+      "score": 6.393582,
+      "threshold": 4.0,
+      "score_name": "max residual impulse / neighbourhood max",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "candidates": 1,
+        "residual_rms": 0.004433,
+        "neighbourhood_ms": 20.0,
+        "lpc_order": 16
+      },
+      "finding_ids": [
+        "SPL-001"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "C2",
+      "name": "Short-time energy discontinuity",
+      "module": "C: splicing",
+      "family": "short_time",
+      "status": "completed",
+      "summary": "10 abrupt level change(s) above threshold.",
+      "score": 36.107153,
+      "threshold": 6.0,
+      "score_name": "max robust z of level step",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "window_ms": 10.0,
+        "median_abs_step_db": 2.083419,
+        "candidates": 10
+      },
+      "finding_ids": [
+        "SPL-002",
+        "SPL-003",
+        "SPL-004",
+        "SPL-005",
+        "SPL-006",
+        "SPL-007",
+        "SPL-008",
+        "SPL-009",
+        "SPL-010",
+        "SPL-011"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "C3",
+      "name": "Spectral discontinuity (log-spectral distance)",
+      "module": "C: splicing",
+      "family": "short_time",
+      "status": "completed",
+      "summary": "11 abrupt spectral change(s).",
+      "score": 234.939917,
+      "threshold": 6.0,
+      "score_name": "max robust z of log-spectral distance",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "median_lsd_db": 8.025587,
+        "candidates": 11
+      },
+      "finding_ids": [
+        "SPL-012",
+        "SPL-013",
+        "SPL-014",
+        "SPL-015",
+        "SPL-016",
+        "SPL-017",
+        "SPL-018",
+        "SPL-019",
+        "SPL-020",
+        "SPL-021",
+        "SPL-022"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "C4",
+      "name": "Background noise-floor consistency",
+      "module": "C: splicing",
+      "family": "noise",
+      "status": "completed",
+      "summary": "No abrupt change of background level or spectrum above threshold.",
+      "score": 13.301557,
+      "threshold": 4.0,
+      "score_name": "max robust z of noise-floor step",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "global_noise_floor_db": -45.241717,
+        "active_level_p90_db": -19.981431,
+        "snr_estimate_db": 25.260286,
+        "blocks": 31,
+        "block_seconds": 0.25
+      },
+      "finding_ids": [],
+      "limitations": []
+    },
+    {
+      "test_id": "C5",
+      "name": "Digital silence and padding",
+      "module": "C: splicing",
+      "family": "silence",
+      "status": "completed",
+      "summary": "1 interior digital-silence run(s) >= 10 ms.",
+      "score": 400.0,
+      "threshold": 10.0,
+      "score_name": "longest interior exact-zero run (ms)",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "leading_zero_samples": 0,
+        "trailing_zero_samples": 0,
+        "leading_zero_ms": 0.0,
+        "trailing_zero_ms": 0.0,
+        "interior_runs": 1,
+        "total_zero_samples": 18118,
+        "systematic_gating_pattern": false
+      },
+      "finding_ids": [
+        "SIL-001"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "C6",
+      "name": "Duplicated segment (copy-move) detection",
+      "module": "C: splicing",
+      "family": "duplication",
+      "status": "completed",
+      "summary": "1 verified duplicated segment pair(s).",
+      "score": 1.0,
+      "threshold": 0.98,
+      "score_name": "best verified waveform NCC",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "frames": 691,
+        "frame_hop_s": 0.01161,
+        "active_frames": 345,
+        "similarity_candidates": 442
+      },
+      "finding_ids": [
+        "DUP-001"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "C7",
+      "name": "ENF (mains hum) phase continuity",
+      "module": "C: splicing",
+      "family": "enf",
+      "status": "completed",
+      "summary": "50 Hz hum present; 4 phase discontinuity(ies).",
+      "score": 152.862618,
+      "threshold": 6.0,
+      "score_name": "max robust z of hum phase step",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "prominence_50hz_db": 28.249041,
+        "prominence_60hz_db": -0.792554,
+        "enf_nominal_hz": 50.0,
+        "phase_frames": 393,
+        "phase_step_median_rad": 0.039618
+      },
+      "finding_ids": [
+        "ENF-001",
+        "ENF-002",
+        "ENF-003",
+        "ENF-004"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "D1",
+      "name": "Spectral band limit (codec/resampler low-pass)",
+      "module": "D: compression",
+      "family": "bandwidth",
+      "status": "completed",
+      "summary": "No steep band limit below Nyquist (no broadband content rises above the near-Nyquist floor).",
+      "score": 0.0,
+      "threshold": 25.0,
+      "score_name": "drop depth (dB) of a steep band limit",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "found": false,
+        "cutoff_hz": null,
+        "cutoff_to_nyquist": null,
+        "depth_db": null,
+        "transition_hz": null,
+        "stopband_floor_db": -90.625051,
+        "passband_level_db": null,
+        "nyquist_hz": 22050.0,
+        "steep": false,
+        "reason": "no broadband content rises above the near-Nyquist floor"
+      },
+      "finding_ids": [],
+      "limitations": []
+    },
+    {
+      "test_id": "D2",
+      "name": "Spectral holes (codec quantisation to zero)",
+      "module": "D: compression",
+      "family": "codec_holes",
+      "status": "completed",
+      "summary": "Hole ratio 0.25 %: no codec-like spectral holes.",
+      "score": 0.002477,
+      "threshold": 0.03,
+      "score_name": "fraction of TF bins > 25 dB below band median",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "hole_ratio": 0.002477,
+        "analysis_band_hz": [
+          2000.0,
+          16000.0
+        ],
+        "gaussian_noise_baseline": 0.00219,
+        "frames_with_over_10pct_holes": 0.0
+      },
+      "finding_ids": [],
+      "limitations": []
+    },
+    {
+      "test_id": "D3",
+      "name": "Quantisation: bit depth and histogram combing",
+      "module": "D: compression",
+      "family": "quantization",
+      "status": "completed",
+      "summary": "Sample-value histogram is smooth (no evidence of post-quantisation gain).",
+      "score": 0.0,
+      "threshold": 0.05,
+      "score_name": "max block empty-bin fraction",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "sample_grid": "integer PCM container",
+        "container_bits": 16,
+        "effective_bits": 16,
+        "always_zero_lsbs": 0,
+        "analysed_blocks": 15,
+        "max_periodicity_db": 11.044122,
+        "flagged_block_fraction": 0.0,
+        "whole_file_gain_processing": false
+      },
+      "finding_ids": [],
+      "limitations": []
+    },
+    {
+      "test_id": "D4",
+      "name": "Codec signature, bitrate and declared-bandwidth consistency",
+      "module": "D: compression",
+      "family": "codec_metadata",
+      "status": "completed",
+      "summary": "No codec/bandwidth inconsistency found.",
+      "score": 0.0,
+      "threshold": null,
+      "score_name": "number of inconsistencies",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "codec": "pcm_s16le",
+        "signatures": []
+      },
+      "finding_ids": [
+        "CMP-001"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "E1",
+      "name": "Empty band below Nyquist (upsampling trace)",
+      "module": "E: resampling",
+      "family": "bandwidth",
+      "status": "completed",
+      "summary": "Content uses the band up to Nyquist (no upsampling trace).",
+      "score": 0.0,
+      "threshold": 0.05,
+      "score_name": "empty fraction of the Nyquist band",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "cutoff_hz": null,
+        "nyquist_hz": 22050.0,
+        "empty_band_fraction": 0.0,
+        "steep": false,
+        "consistent_source_rates": [],
+        "declared_sample_rate": 44100
+      },
+      "finding_ids": [],
+      "limitations": []
+    },
+    {
+      "test_id": "E2",
+      "name": "Interpolation periodicity in prediction residual",
+      "module": "E: resampling",
+      "family": "resampling_periodicity",
+      "status": "completed",
+      "summary": "No periodic residual structure above 20 dB (max 10.3 dB).",
+      "score": 10.291711,
+      "threshold": 20.0,
+      "score_name": "peak/median ratio of residual-variance spectrum (dB)",
+      "detected": false,
+      "experimental": true,
+      "measurements": {
+        "peak_ratio_db": 10.291711,
+        "peak_frequency_cycles_per_sample": 0.455078,
+        "implied_period_samples": 2.197425
+      },
+      "finding_ids": [],
+      "limitations": [
+        "Experimental: long windowed-sinc resamplers leave little periodic residual structure."
+      ]
+    },
+    {
+      "test_id": "E3",
+      "name": "Sample-rate metadata consistency",
+      "module": "E: resampling",
+      "family": "metadata",
+      "status": "completed",
+      "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)",
+      "score": 0.0,
+      "threshold": null,
+      "score_name": "mismatches",
+      "detected": false,
+      "experimental": false,
+      "measurements": {
+        "declared_rates": {
+          "riff_fmt": 44100,
+          "ffprobe": 44100,
+          "decoder": 44100
+        }
+      },
+      "finding_ids": [],
+      "limitations": []
+    },
+    {
+      "test_id": "F1",
+      "name": "Robust z-score / MAD outlier windows",
+      "module": "F: statistics",
+      "family": "statistical",
+      "status": "completed",
+      "summary": "13 of 31 windows exceed |z| > 3.5 on at least one feature.",
+      "score": 2395.444917,
+      "threshold": 3.5,
+      "score_name": "max |modified z|",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "windows": 31,
+        "outlier_windows": 13,
+        "outlier_fraction": 0.419355,
+        "features": [
+          "level_median_db",
+          "level_p10_db",
+          "centroid_hz",
+          "flatness",
+          "zcr",
+          "rolloff_hz",
+          "mfcc1",
+          "mfcc2",
+          "mfcc3",
+          "mfcc4"
+        ]
+      },
+      "finding_ids": [
+        "ANO-001",
+        "ANO-002",
+        "ANO-003",
+        "ANO-004",
+        "ANO-005"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "F2",
+      "name": "Isolation Forest window anomalies",
+      "module": "F: statistics",
+      "family": "statistical",
+      "status": "completed",
+      "summary": "10 of 31 windows flagged as anomalous by Isolation Forest.",
+      "score": -0.19616,
+      "threshold": null,
+      "score_name": "min decision function",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "windows": 31,
+        "anomalous_windows": 10,
+        "random_state": 1337
+      },
+      "finding_ids": [
+        "ANO-006",
+        "ANO-007",
+        "ANO-008"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "F3",
+      "name": "PELT change-point detection",
+      "module": "F: statistics",
+      "family": "statistical",
+      "status": "completed",
+      "summary": "5 change point(s) in window features.",
+      "score": 5.0,
+      "threshold": null,
+      "score_name": "change points",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "penalty": 103.019616,
+        "change_points": [
+          2.705125,
+          3.192744,
+          3.924172,
+          4.411791,
+          4.89941
+        ]
+      },
+      "finding_ids": [
+        "ANO-009",
+        "ANO-010",
+        "ANO-011",
+        "ANO-012",
+        "ANO-013"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "F4",
+      "name": "Adjacent-window KS test on quiet-frame flatness",
+      "module": "F: statistics",
+      "family": "statistical",
+      "status": "completed",
+      "summary": "4 significant window pair(s) (max D = 0.81).",
+      "score": 0.813953,
+      "threshold": 0.6,
+      "score_name": "max KS statistic D",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "tests_run": 12,
+        "significant": 4,
+        "alpha": 0.0001
+      },
+      "finding_ids": [
+        "ANO-014",
+        "ANO-015",
+        "ANO-016",
+        "ANO-017"
+      ],
+      "limitations": []
+    },
+    {
+      "test_id": "F5",
+      "name": "Delta-BIC segmentation on MFCCs",
+      "module": "F: statistics",
+      "family": "statistical",
+      "status": "completed",
+      "summary": "4 positive delta-BIC point(s).",
+      "score": 462.555768,
+      "threshold": null,
+      "score_name": "max delta-BIC",
+      "detected": true,
+      "experimental": false,
+      "measurements": {
+        "positive_delta_bic_points": 4,
+        "lambda": 1.0
+      },
+      "finding_ids": [
+        "ANO-018",
+        "ANO-019",
+        "ANO-020",
+        "ANO-021"
+      ],
+      "limitations": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "SPL-001",
+      "test_id": "C1",
+      "module": "C: splicing",
+      "method": "LPC residual impulse vs. neighbourhood maximum",
+      "family": "waveform",
+      "category": "observed",
+      "severity": "low",
+      "title": "Isolated waveform discontinuity at 2.3000 s",
+      "description": "The prediction residual at sample 101429 is 6.4x larger than any residual value within 20 ms on either side; the waveform does not continue smoothly.",
+      "localization": "point",
+      "time_start": 2.299977,
+      "time_end": 2.299977,
+      "sample_start": 101429,
+      "sample_end": 101429,
+      "measurements": {
+        "impulse_ratio": 6.393582,
+        "residual_value": 0.014636,
+        "sample_step": 0.014862,
+        "sample_step_dbfs": -36.558419
+      },
+      "baseline": {
+        "ratio_threshold": 4.0,
+        "neighbourhood_ms": 20.0,
+        "guard_ms": 0.5
+      },
+      "alternative_explanations": [
+        "Click, pop, plosive or percussive onset in the original sound",
+        "Digital dropout, buffer underrun or bit error in the recording chain",
+        "Clipping onset",
+        "A hard edit point (cut, insertion or gain step without crossfade)"
+      ],
+      "limitations": [
+        "Edits made at zero crossings with matching slope, or with crossfades, produce no impulse."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-002",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of -16.4 dB at 0.257 s",
+      "description": "Signal level changes by -16.4 dB within 10 ms (robust z = 6.4).",
+      "localization": "point",
+      "time_start": 0.256916,
+      "time_end": 0.256916,
+      "sample_start": 11330,
+      "sample_end": 11330,
+      "measurements": {
+        "level_step_db": -16.445344,
+        "robust_z": 6.399405,
+        "level_before_db": -25.077867,
+        "level_after_db": -41.523211
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-003",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of +17.2 dB at 0.811 s",
+      "description": "Signal level changes by +17.2 dB within 10 ms (robust z = 6.7).",
+      "localization": "point",
+      "time_start": 0.810658,
+      "time_end": 0.810658,
+      "sample_start": 35750,
+      "sample_end": 35750,
+      "measurements": {
+        "level_step_db": 17.207351,
+        "robust_z": 6.738941,
+        "level_before_db": -44.021993,
+        "level_after_db": -26.814642
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-004",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of -16.9 dB at 0.988 s",
+      "description": "Signal level changes by -16.9 dB within 10 ms (robust z = 6.6).",
+      "localization": "point",
+      "time_start": 0.987755,
+      "time_end": 0.987755,
+      "sample_start": 43560,
+      "sample_end": 43560,
+      "measurements": {
+        "level_step_db": -16.870356,
+        "robust_z": 6.588782,
+        "level_before_db": -30.457865,
+        "level_after_db": -47.328221
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-005",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of +22.5 dB at 1.217 s",
+      "description": "Signal level changes by +22.5 dB within 10 ms (robust z = 9.1).",
+      "localization": "point",
+      "time_start": 1.217234,
+      "time_end": 1.217234,
+      "sample_start": 53680,
+      "sample_end": 53680,
+      "measurements": {
+        "level_step_db": 22.505158,
+        "robust_z": 9.099545,
+        "level_before_db": -47.614848,
+        "level_after_db": -25.10969
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-006",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of +16.0 dB at 1.477 s",
+      "description": "Signal level changes by +16.0 dB within 10 ms (robust z = 6.2).",
+      "localization": "point",
+      "time_start": 1.476644,
+      "time_end": 1.476644,
+      "sample_start": 65120,
+      "sample_end": 65120,
+      "measurements": {
+        "level_step_db": 15.985913,
+        "robust_z": 6.194691,
+        "level_before_db": -47.341753,
+        "level_after_db": -31.35584
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-007",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of +17.0 dB at 1.527 s",
+      "description": "Signal level changes by +17.0 dB within 10 ms (robust z = 6.7).",
+      "localization": "point",
+      "time_start": 1.526531,
+      "time_end": 1.526531,
+      "sample_start": 67320,
+      "sample_end": 67320,
+      "measurements": {
+        "level_step_db": 17.029655,
+        "robust_z": 6.659763,
+        "level_before_db": -39.284134,
+        "level_after_db": -22.254479
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-008",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of -81.7 dB at 4.101 s",
+      "description": "Signal level changes by -81.7 dB within 10 ms (robust z = 35.5).",
+      "localization": "point",
+      "time_start": 4.10068,
+      "time_end": 4.10068,
+      "sample_start": 180840,
+      "sample_end": 180840,
+      "measurements": {
+        "level_step_db": -81.679041,
+        "robust_z": 35.466318,
+        "level_before_db": -38.320959,
+        "level_after_db": -120.0
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-009",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of +83.1 dB at 4.500 s",
+      "description": "Signal level changes by +83.1 dB within 10 ms (robust z = 36.1).",
+      "localization": "point",
+      "time_start": 4.499773,
+      "time_end": 4.499773,
+      "sample_start": 198440,
+      "sample_end": 198440,
+      "measurements": {
+        "level_step_db": 83.11724,
+        "robust_z": 36.107153,
+        "level_before_db": -120.0,
+        "level_after_db": -36.88276
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-010",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of +18.3 dB at 5.059 s",
+      "description": "Signal level changes by +18.3 dB within 10 ms (robust z = 7.2).",
+      "localization": "point",
+      "time_start": 5.058503,
+      "time_end": 5.058503,
+      "sample_start": 223080,
+      "sample_end": 223080,
+      "measurements": {
+        "level_step_db": 18.274474,
+        "robust_z": 7.214431,
+        "level_before_db": -39.892501,
+        "level_after_db": -21.618027
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-011",
+      "test_id": "C2",
+      "module": "C: splicing",
+      "method": "10 ms level before vs. after boundary",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt level change of +20.5 dB at 6.216 s",
+      "description": "Signal level changes by +20.5 dB within 10 ms (robust z = 8.2).",
+      "localization": "point",
+      "time_start": 6.215873,
+      "time_end": 6.215873,
+      "sample_start": 274120,
+      "sample_end": 274120,
+      "measurements": {
+        "level_step_db": 20.542605,
+        "robust_z": 8.225068,
+        "level_before_db": -47.741065,
+        "level_after_db": -27.19846
+      },
+      "baseline": {
+        "step_threshold_db": 15.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Natural onset/offset of speech, notes or percussive sounds",
+        "Noise gate or recorder muting",
+        "Inserted or removed segment"
+      ],
+      "limitations": [
+        "Ordinary speech onsets after pauses produce large level steps; on its own this is weak evidence."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-012",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 0.813 s",
+      "description": "Log-spectral distance 12.0 dB between adjacent non-overlapping frames (robust z = 6.9).",
+      "localization": "point",
+      "time_start": 0.812698,
+      "time_end": 0.812698,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 12.022729,
+        "robust_z": 6.878486
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-013",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 1.521 s",
+      "description": "Log-spectral distance 39.3 dB between adjacent non-overlapping frames (robust z = 53.8).",
+      "localization": "point",
+      "time_start": 1.520907,
+      "time_end": 1.520907,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 39.297945,
+        "robust_z": 53.815071
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-014",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 2.868 s",
+      "description": "Log-spectral distance 31.4 dB between adjacent non-overlapping frames (robust z = 40.2).",
+      "localization": "point",
+      "time_start": 2.867664,
+      "time_end": 2.867664,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 31.369369,
+        "robust_z": 40.171173
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-015",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 3.146 s",
+      "description": "Log-spectral distance 19.7 dB between adjacent non-overlapping frames (robust z = 20.1).",
+      "localization": "point",
+      "time_start": 3.146304,
+      "time_end": 3.146304,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 19.723844,
+        "robust_z": 20.130958
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-016",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 3.634 s",
+      "description": "Log-spectral distance 21.4 dB between adjacent non-overlapping frames (robust z = 23.0).",
+      "localization": "point",
+      "time_start": 3.633923,
+      "time_end": 3.633923,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 21.382959,
+        "robust_z": 22.986048
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-017",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 3.971 s",
+      "description": "Log-spectral distance 18.6 dB between adjacent non-overlapping frames (robust z = 18.1).",
+      "localization": "point",
+      "time_start": 3.970612,
+      "time_end": 3.970612,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 18.564131,
+        "robust_z": 18.135265
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-018",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 4.110 s",
+      "description": "Log-spectral distance 144.3 dB between adjacent non-overlapping frames (robust z = 234.5).",
+      "localization": "point",
+      "time_start": 4.109932,
+      "time_end": 4.109932,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 144.284099,
+        "robust_z": 234.480613
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-019",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 4.493 s",
+      "description": "Log-spectral distance 144.6 dB between adjacent non-overlapping frames (robust z = 234.9).",
+      "localization": "point",
+      "time_start": 4.493061,
+      "time_end": 4.493061,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 144.551004,
+        "robust_z": 234.939917
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-020",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 4.702 s",
+      "description": "Log-spectral distance 15.6 dB between adjacent non-overlapping frames (robust z = 12.9).",
+      "localization": "point",
+      "time_start": 4.702041,
+      "time_end": 4.702041,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 15.55001,
+        "robust_z": 12.948411
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-021",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 6.467 s",
+      "description": "Log-spectral distance 37.8 dB between adjacent non-overlapping frames (robust z = 51.3).",
+      "localization": "point",
+      "time_start": 6.466757,
+      "time_end": 6.466757,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 37.8413,
+        "robust_z": 51.308403
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SPL-022",
+      "test_id": "C3",
+      "module": "C: splicing",
+      "method": "log-spectral distance between non-overlapping STFT frames",
+      "family": "short_time",
+      "category": "statistical",
+      "severity": "low",
+      "title": "Abrupt spectral change at 7.697 s",
+      "description": "Log-spectral distance 27.9 dB between adjacent non-overlapping frames (robust z = 34.2).",
+      "localization": "point",
+      "time_start": 7.697415,
+      "time_end": 7.697415,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "log_spectral_distance_db": 27.882333,
+        "robust_z": 34.170503
+      },
+      "baseline": {
+        "lsd_threshold_db": 12.0,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Phoneme or note transition",
+        "Onset of a new sound source",
+        "Edit point"
+      ],
+      "limitations": [
+        "Frame resolution is n_fft/4 samples; content changes are common in speech and music."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "SIL-001",
+      "test_id": "C5",
+      "module": "C: splicing",
+      "method": "exact-zero sample run detection",
+      "family": "silence",
+      "category": "observed",
+      "severity": "medium",
+      "title": "Digital silence of 400 ms at 4.100-4.500 s",
+      "description": "17640 consecutive samples are exactly zero in every channel, while the surrounding background noise is about -45 dBFS. A continuous acoustic recording would contain that background noise during pauses.",
+      "localization": "region",
+      "time_start": 4.099977,
+      "time_end": 4.499977,
+      "sample_start": 180809,
+      "sample_end": 198449,
+      "measurements": {
+        "run_samples": 17640,
+        "run_ms": 400.0,
+        "surrounding_noise_floor_db": -44.592411
+      },
+      "baseline": {
+        "minimum_run_ms": 10.0,
+        "noisy_context_threshold_db": -100.0
+      },
+      "alternative_explanations": [
+        "Inserted silence (editing)",
+        "Noise gate or 'silence removal' processing",
+        "Recorder muting or pause function",
+        "Dropout in the recording chain"
+      ],
+      "limitations": [
+        "Dithered or noise-filled insertions are not exact zeros and are not detected by this test."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "DUP-001",
+      "test_id": "C6",
+      "module": "C: splicing",
+      "method": "log-mel self-similarity + waveform NCC verification",
+      "family": "duplication",
+      "category": "observed",
+      "severity": "high",
+      "title": "Segment at 6.18-6.37 s duplicates 1.18-1.37 s",
+      "description": "0.19 s of waveform at 6.184 s matches the waveform at 1.184 s with a normalised cross-correlation of 1.00000. Independently produced sounds do not repeat sample by sample.",
+      "localization": "region",
+      "time_start": 6.184218,
+      "time_end": 6.369977,
+      "sample_start": 272724,
+      "sample_end": 280916,
+      "measurements": {
+        "ncc": 1.0,
+        "source_start_s": 1.184218,
+        "copy_start_s": 6.184218,
+        "length_s": 0.18576
+      },
+      "baseline": {
+        "ncc_threshold": 0.98,
+        "similarity_threshold": 0.92
+      },
+      "alternative_explanations": [
+        "Copy-paste editing (copy-move)",
+        "Loop-based music production or sampled/repeated material",
+        "Synthetic or machine-generated signals with exact periodicity",
+        "Playback of the same recording twice within the scene"
+      ],
+      "limitations": [
+        "Copies that were re-filtered, time-stretched or mixed with other sound may fall below the NCC threshold."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ENF-001",
+      "test_id": "C7",
+      "module": "C: splicing",
+      "method": "frame-wise hum phase tracking (absolute time reference)",
+      "family": "enf",
+      "category": "observed",
+      "severity": "medium",
+      "title": "Mains-hum phase jumps by 2.13 rad near 2.32 s",
+      "description": "The 50 Hz hum phase changes by 2.13 rad (122 deg) around 2.32 s, while it evolves smoothly elsewhere. Removing or inserting samples breaks hum phase continuity.",
+      "localization": "point",
+      "time_start": 2.17,
+      "time_end": 2.47,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "phase_step_rad": 2.132336,
+        "robust_z": 52.3432,
+        "hum_amplitude": 0.000133
+      },
+      "baseline": {
+        "phase_step_threshold_rad": 0.35,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Removal or insertion of samples (edit)",
+        "Change of the electrical environment (another power circuit)",
+        "Strong interference near the hum frequency"
+      ],
+      "limitations": [
+        "Edits that remove an exact multiple of the hum period leave no phase step.",
+        "Time resolution about +/- 0.2 s because of the narrow band-pass filter."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ENF-002",
+      "test_id": "C7",
+      "module": "C: splicing",
+      "method": "frame-wise hum phase tracking (absolute time reference)",
+      "family": "enf",
+      "category": "observed",
+      "severity": "medium",
+      "title": "Mains-hum phase jumps by 6.15 rad near 4.30 s",
+      "description": "The 50 Hz hum phase changes by 6.15 rad (352 deg) around 4.30 s, while it evolves smoothly elsewhere. Removing or inserting samples breaks hum phase continuity.",
+      "localization": "point",
+      "time_start": 4.15,
+      "time_end": 4.45,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "phase_step_rad": 6.151173,
+        "robust_z": 152.862618,
+        "hum_amplitude": 2e-06
+      },
+      "baseline": {
+        "phase_step_threshold_rad": 0.35,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Removal or insertion of samples (edit)",
+        "Change of the electrical environment (another power circuit)",
+        "Strong interference near the hum frequency"
+      ],
+      "limitations": [
+        "Edits that remove an exact multiple of the hum period leave no phase step.",
+        "Time resolution about +/- 0.2 s because of the narrow band-pass filter."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ENF-003",
+      "test_id": "C7",
+      "module": "C: splicing",
+      "method": "frame-wise hum phase tracking (absolute time reference)",
+      "family": "enf",
+      "category": "observed",
+      "severity": "medium",
+      "title": "Mains-hum phase jumps by 0.76 rad near 6.02 s",
+      "description": "The 50 Hz hum phase changes by 0.76 rad (43 deg) around 6.02 s, while it evolves smoothly elsewhere. Removing or inserting samples breaks hum phase continuity.",
+      "localization": "point",
+      "time_start": 5.87,
+      "time_end": 6.17,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "phase_step_rad": 0.758563,
+        "robust_z": 17.982296,
+        "hum_amplitude": 5.8e-05
+      },
+      "baseline": {
+        "phase_step_threshold_rad": 0.35,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Removal or insertion of samples (edit)",
+        "Change of the electrical environment (another power circuit)",
+        "Strong interference near the hum frequency"
+      ],
+      "limitations": [
+        "Edits that remove an exact multiple of the hum period leave no phase step.",
+        "Time resolution about +/- 0.2 s because of the narrow band-pass filter."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ENF-004",
+      "test_id": "C7",
+      "module": "C: splicing",
+      "method": "frame-wise hum phase tracking (absolute time reference)",
+      "family": "enf",
+      "category": "observed",
+      "severity": "medium",
+      "title": "Mains-hum phase jumps by 0.65 rad near 6.48 s",
+      "description": "The 50 Hz hum phase changes by 0.65 rad (37 deg) around 6.48 s, while it evolves smoothly elsewhere. Removing or inserting samples breaks hum phase continuity.",
+      "localization": "point",
+      "time_start": 6.33,
+      "time_end": 6.63,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "phase_step_rad": 0.653559,
+        "robust_z": 15.355926,
+        "hum_amplitude": 0.000101
+      },
+      "baseline": {
+        "phase_step_threshold_rad": 0.35,
+        "z_threshold": 6.0
+      },
+      "alternative_explanations": [
+        "Removal or insertion of samples (edit)",
+        "Change of the electrical environment (another power circuit)",
+        "Strong interference near the hum frequency"
+      ],
+      "limitations": [
+        "Edits that remove an exact multiple of the hum period leave no phase step.",
+        "Time resolution about +/- 0.2 s because of the narrow band-pass filter."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "CMP-001",
+      "test_id": "D4",
+      "module": "D: compression",
+      "method": "scope statement",
+      "family": "codec_metadata",
+      "category": "undetermined",
+      "severity": "info",
+      "title": "Number of compression generations cannot be established",
+      "description": "Detecting how many times a signal was lossily encoded requires access to the codec's internal frame grid and quantiser (e.g. MDCT-coefficient statistics). SonicTrace measures the band-limit and spectral-hole fingerprints of *at least one* lossy generation; it does not count generations.",
+      "localization": "global",
+      "time_start": null,
+      "time_end": null,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {},
+      "baseline": {},
+      "alternative_explanations": [],
+      "limitations": [],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-001",
+      "test_id": "F1",
+      "module": "F: statistics",
+      "method": "modified z-score (median/MAD)",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Statistically unusual window 0.51-1.00 s (flatness)",
+      "description": "Feature 'flatness' deviates by -9.2 robust standard deviations from the recording's median.",
+      "localization": "region",
+      "time_start": 0.510839,
+      "time_end": 0.998458,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "max_abs_z": 9.248138,
+        "feature": "flatness"
+      },
+      "baseline": {
+        "z_threshold": 3.5
+      },
+      "alternative_explanations": [
+        "Natural variation of content (loud passage, silence, different sound)"
+      ],
+      "limitations": [
+        "Unusual is not the same as manipulated."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-002",
+      "test_id": "F1",
+      "module": "F: statistics",
+      "method": "modified z-score (median/MAD)",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Statistically unusual window 1.24-1.73 s (flatness)",
+      "description": "Feature 'flatness' deviates by -13.6 robust standard deviations from the recording's median.",
+      "localization": "region",
+      "time_start": 1.242268,
+      "time_end": 1.729887,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "max_abs_z": 13.607645,
+        "feature": "flatness"
+      },
+      "baseline": {
+        "z_threshold": 3.5
+      },
+      "alternative_explanations": [
+        "Natural variation of content (loud passage, silence, different sound)"
+      ],
+      "limitations": [
+        "Unusual is not the same as manipulated."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-003",
+      "test_id": "F1",
+      "module": "F: statistics",
+      "method": "modified z-score (median/MAD)",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Statistically unusual window 1.97-2.46 s (flatness)",
+      "description": "Feature 'flatness' deviates by -11.9 robust standard deviations from the recording's median.",
+      "localization": "region",
+      "time_start": 1.973696,
+      "time_end": 2.461315,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "max_abs_z": 11.945887,
+        "feature": "flatness"
+      },
+      "baseline": {
+        "z_threshold": 3.5
+      },
+      "alternative_explanations": [
+        "Natural variation of content (loud passage, silence, different sound)"
+      ],
+      "limitations": [
+        "Unusual is not the same as manipulated."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-004",
+      "test_id": "F1",
+      "module": "F: statistics",
+      "method": "modified z-score (median/MAD)",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Statistically unusual window 2.95-3.44 s (level_p10_db)",
+      "description": "Feature 'level_p10_db' deviates by 13.7 robust standard deviations from the recording's median.",
+      "localization": "region",
+      "time_start": 2.948934,
+      "time_end": 3.436553,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "max_abs_z": 13.706504,
+        "feature": "level_p10_db"
+      },
+      "baseline": {
+        "z_threshold": 3.5
+      },
+      "alternative_explanations": [
+        "Natural variation of content (loud passage, silence, different sound)"
+      ],
+      "limitations": [
+        "Unusual is not the same as manipulated."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-005",
+      "test_id": "F1",
+      "module": "F: statistics",
+      "method": "modified z-score (median/MAD)",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Statistically unusual window 3.68-4.17 s (level_p10_db)",
+      "description": "Feature 'level_p10_db' deviates by -121.7 robust standard deviations from the recording's median.",
+      "localization": "region",
+      "time_start": 3.680363,
+      "time_end": 4.167982,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "max_abs_z": 121.711655,
+        "feature": "level_p10_db"
+      },
+      "baseline": {
+        "z_threshold": 3.5
+      },
+      "alternative_explanations": [
+        "Natural variation of content (loud passage, silence, different sound)"
+      ],
+      "limitations": [
+        "Unusual is not the same as manipulated."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-006",
+      "test_id": "F2",
+      "module": "F: statistics",
+      "method": "IsolationForest (scikit-learn)",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Isolation Forest anomaly 4.17-4.66 s",
+      "description": "Decision function -0.196 (< 0 means easier to isolate than typical windows).",
+      "localization": "region",
+      "time_start": 4.167982,
+      "time_end": 4.655601,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "decision_function": -0.19616
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Natural content variation"
+      ],
+      "limitations": [
+        "Unsupervised; trained on the file itself; not a manipulation classifier."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-007",
+      "test_id": "F2",
+      "module": "F: statistics",
+      "method": "IsolationForest (scikit-learn)",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Isolation Forest anomaly 3.92-4.41 s",
+      "description": "Decision function -0.196 (< 0 means easier to isolate than typical windows).",
+      "localization": "region",
+      "time_start": 3.924172,
+      "time_end": 4.411791,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "decision_function": -0.195676
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Natural content variation"
+      ],
+      "limitations": [
+        "Unsupervised; trained on the file itself; not a manipulation classifier."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-008",
+      "test_id": "F2",
+      "module": "F: statistics",
+      "method": "IsolationForest (scikit-learn)",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Isolation Forest anomaly 1.24-1.73 s",
+      "description": "Decision function -0.086 (< 0 means easier to isolate than typical windows).",
+      "localization": "region",
+      "time_start": 1.242268,
+      "time_end": 1.729887,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "decision_function": -0.08563
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Natural content variation"
+      ],
+      "limitations": [
+        "Unsupervised; trained on the file itself; not a manipulation classifier."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-009",
+      "test_id": "F3",
+      "module": "F: statistics",
+      "method": "PELT, Gaussian mean-shift cost",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Feature-distribution change point near 2.71 s",
+      "description": "The multivariate feature mean changes here enough to pay the BIC-style penalty.",
+      "localization": "point",
+      "time_start": 2.455125,
+      "time_end": 2.955125,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "penalty": 103.019616
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Change of content (speaker, phrase, instrument)"
+      ],
+      "limitations": [
+        "Window resolution only; content changes are expected in natural recordings."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-010",
+      "test_id": "F3",
+      "module": "F: statistics",
+      "method": "PELT, Gaussian mean-shift cost",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Feature-distribution change point near 3.19 s",
+      "description": "The multivariate feature mean changes here enough to pay the BIC-style penalty.",
+      "localization": "point",
+      "time_start": 2.942744,
+      "time_end": 3.442744,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "penalty": 103.019616
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Change of content (speaker, phrase, instrument)"
+      ],
+      "limitations": [
+        "Window resolution only; content changes are expected in natural recordings."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-011",
+      "test_id": "F3",
+      "module": "F: statistics",
+      "method": "PELT, Gaussian mean-shift cost",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Feature-distribution change point near 3.92 s",
+      "description": "The multivariate feature mean changes here enough to pay the BIC-style penalty.",
+      "localization": "point",
+      "time_start": 3.674172,
+      "time_end": 4.174172,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "penalty": 103.019616
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Change of content (speaker, phrase, instrument)"
+      ],
+      "limitations": [
+        "Window resolution only; content changes are expected in natural recordings."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-012",
+      "test_id": "F3",
+      "module": "F: statistics",
+      "method": "PELT, Gaussian mean-shift cost",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Feature-distribution change point near 4.41 s",
+      "description": "The multivariate feature mean changes here enough to pay the BIC-style penalty.",
+      "localization": "point",
+      "time_start": 4.161791,
+      "time_end": 4.661791,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "penalty": 103.019616
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Change of content (speaker, phrase, instrument)"
+      ],
+      "limitations": [
+        "Window resolution only; content changes are expected in natural recordings."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-013",
+      "test_id": "F3",
+      "module": "F: statistics",
+      "method": "PELT, Gaussian mean-shift cost",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Feature-distribution change point near 4.90 s",
+      "description": "The multivariate feature mean changes here enough to pay the BIC-style penalty.",
+      "localization": "point",
+      "time_start": 4.64941,
+      "time_end": 5.14941,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "penalty": 103.019616
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Change of content (speaker, phrase, instrument)"
+      ],
+      "limitations": [
+        "Window resolution only; content changes are expected in natural recordings."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-014",
+      "test_id": "F4",
+      "module": "F: statistics",
+      "method": "two-sample Kolmogorov-Smirnov",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Background texture differs across 5.02 s",
+      "description": "Spectral flatness of the quieter frames differs between the 1 s before and after (D = 0.81, p = 1.6e-14).",
+      "localization": "point",
+      "time_start": 4.76551,
+      "time_end": 5.26551,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "ks_d": 0.813953,
+        "p_value": 0.0
+      },
+      "baseline": {
+        "alpha": 0.0001,
+        "min_d": 0.6
+      },
+      "alternative_explanations": [
+        "Change of content density",
+        "Environmental change",
+        "Splice"
+      ],
+      "limitations": [
+        "Many overlapping tests are run; p-values are not corrected for multiplicity."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-015",
+      "test_id": "F4",
+      "module": "F: statistics",
+      "method": "two-sample Kolmogorov-Smirnov",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Background texture differs across 4.52 s",
+      "description": "Spectral flatness of the quieter frames differs between the 1 s before and after (D = 0.74, p = 7.4e-12).",
+      "localization": "point",
+      "time_start": 4.266281,
+      "time_end": 4.766281,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "ks_d": 0.744186,
+        "p_value": 0.0
+      },
+      "baseline": {
+        "alpha": 0.0001,
+        "min_d": 0.6
+      },
+      "alternative_explanations": [
+        "Change of content density",
+        "Environmental change",
+        "Splice"
+      ],
+      "limitations": [
+        "Many overlapping tests are run; p-values are not corrected for multiplicity."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-016",
+      "test_id": "F4",
+      "module": "F: statistics",
+      "method": "two-sample Kolmogorov-Smirnov",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Background texture differs across 3.52 s",
+      "description": "Spectral flatness of the quieter frames differs between the 1 s before and after (D = 0.72, p = 4.6e-11).",
+      "localization": "point",
+      "time_start": 3.267823,
+      "time_end": 3.767823,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "ks_d": 0.72093,
+        "p_value": 0.0
+      },
+      "baseline": {
+        "alpha": 0.0001,
+        "min_d": 0.6
+      },
+      "alternative_explanations": [
+        "Change of content density",
+        "Environmental change",
+        "Splice"
+      ],
+      "limitations": [
+        "Many overlapping tests are run; p-values are not corrected for multiplicity."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-017",
+      "test_id": "F4",
+      "module": "F: statistics",
+      "method": "two-sample Kolmogorov-Smirnov",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "Background texture differs across 4.02 s",
+      "description": "Spectral flatness of the quieter frames differs between the 1 s before and after (D = 0.70, p = 2.6e-10).",
+      "localization": "point",
+      "time_start": 3.767052,
+      "time_end": 4.267052,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "ks_d": 0.697674,
+        "p_value": 0.0
+      },
+      "baseline": {
+        "alpha": 0.0001,
+        "min_d": 0.6
+      },
+      "alternative_explanations": [
+        "Change of content density",
+        "Environmental change",
+        "Splice"
+      ],
+      "limitations": [
+        "Many overlapping tests are run; p-values are not corrected for multiplicity."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-018",
+      "test_id": "F5",
+      "module": "F: statistics",
+      "method": "delta-BIC, full-covariance Gaussians",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "MFCC model change near 1.61 s",
+      "description": "Two Gaussians fit the MFCCs around this point better than one (delta-BIC = 108.6).",
+      "localization": "point",
+      "time_start": 1.363787,
+      "time_end": 1.863787,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "delta_bic": 108.611204
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Speaker/phoneme/content change",
+        "Channel or environment change"
+      ],
+      "limitations": [
+        "Designed for speaker-change detection; content changes in one take also trigger it."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-019",
+      "test_id": "F5",
+      "module": "F: statistics",
+      "method": "delta-BIC, full-covariance Gaussians",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "MFCC model change near 2.80 s",
+      "description": "Two Gaussians fit the MFCCs around this point better than one (delta-BIC = 293.1).",
+      "localization": "point",
+      "time_start": 2.548005,
+      "time_end": 3.048005,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "delta_bic": 293.090634
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Speaker/phoneme/content change",
+        "Channel or environment change"
+      ],
+      "limitations": [
+        "Designed for speaker-change detection; content changes in one take also trigger it."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-020",
+      "test_id": "F5",
+      "module": "F: statistics",
+      "method": "delta-BIC, full-covariance Gaussians",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "MFCC model change near 4.77 s",
+      "description": "Two Gaussians fit the MFCCs around this point better than one (delta-BIC = 462.6).",
+      "localization": "point",
+      "time_start": 4.521701,
+      "time_end": 5.021701,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "delta_bic": 462.555768
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Speaker/phoneme/content change",
+        "Channel or environment change"
+      ],
+      "limitations": [
+        "Designed for speaker-change detection; content changes in one take also trigger it."
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "finding_id": "ANO-021",
+      "test_id": "F5",
+      "module": "F: statistics",
+      "method": "delta-BIC, full-covariance Gaussians",
+      "family": "statistical",
+      "category": "statistical",
+      "severity": "info",
+      "title": "MFCC model change near 6.35 s",
+      "description": "Two Gaussians fit the MFCCs around this point better than one (delta-BIC = 200.8).",
+      "localization": "point",
+      "time_start": 6.100658,
+      "time_end": 6.600658,
+      "sample_start": null,
+      "sample_end": null,
+      "measurements": {
+        "delta_bic": 200.783801
+      },
+      "baseline": {},
+      "alternative_explanations": [
+        "Speaker/phoneme/content change",
+        "Channel or environment change"
+      ],
+      "limitations": [
+        "Designed for speaker-change detection; content changes in one take also trigger it."
+      ],
+      "supporting_evidence": []
+    }
+  ],
+  "environment": {
+    "sonictrace": "0.1.0",
+    "methodology_version": "1.2",
+    "python": "3.12.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.1",
+    "soundfile": "0.14.0",
+    "libsndfile": "1.2.2",
+    "matplotlib": "3.11.2",
+    "ffmpeg": "ffmpeg version 7.0.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.0.1-full_build-www.gyan.dev Copyright (c) 2007-2024 the FFmpeg developers"
+  },
+  "config": {
+    "frame_seconds": 0.046,
+    "hop_divisor": 4,
+    "max_file_bytes": 536870912,
+    "max_duration_s": 600.0,
+    "max_channels": 16,
+    "duplication_max_duration_s": 180.0,
+    "residual_lpc_order": 16,
+    "residual_block": 4096,
+    "residual_neighbor_ms": 20.0,
+    "residual_guard_ms": 0.5,
+    "residual_peak_ratio": 4.0,
+    "residual_max_findings": 25,
+    "energy_window_ms": 10.0,
+    "energy_hop_ms": 2.5,
+    "energy_jump_db": 15.0,
+    "energy_jump_z": 6.0,
+    "spectral_jump_db": 12.0,
+    "spectral_jump_z": 6.0,
+    "noise_block_s": 0.25,
+    "noise_context_blocks": 4,
+    "noise_percentile": 10.0,
+    "noise_shift_db": 6.0,
+    "noise_shape_db": 6.0,
+    "noise_shift_z": 4.0,
+    "digital_silence_min_ms": 10.0,
+    "gating_pattern_min_runs": 5,
+    "comb_global_fraction": 0.8,
+    "dup_hop": 2048,
+    "dup_similarity": 0.92,
+    "dup_min_seconds": 0.15,
+    "dup_min_lag_seconds": 0.5,
+    "dup_ncc_threshold": 0.98,
+    "dup_max_candidates": 60,
+    "enf_prominence_db": 15.0,
+    "enf_phase_jump_rad": 0.35,
+    "enf_jump_z": 6.0,
+    "cutoff_margin_db": 15.0,
+    "cutoff_min_depth_db": 25.0,
+    "cutoff_max_transition_frac": 0.3,
+    "hole_rel_db": 25.0,
+    "hole_ratio_threshold": 0.03,
+    "comb_block_s": 1.0,
+    "comb_min_expected": 4.0,
+    "comb_empty_fraction": 0.05,
+    "comb_periodicity_db": 18.0,
+    "nyquist_gap_fraction": 0.05,
+    "periodicity_peak_db": 20.0,
+    "robust_z_threshold": 3.5,
+    "anomaly_window_s": 0.5,
+    "isolation_forest_estimators": 200,
+    "pelt_penalty_beta": 3.0,
+    "ks_alpha": 0.0001,
+    "ks_min_d": 0.6,
+    "bic_lambda": 1.0,
+    "correlation_tolerance_s": 0.08,
+    "seed": 1337
+  },
+  "timing": {
+    "structure_s": 0.071317,
+    "decode_and_features_s": 0.157907,
+    "tests_s": 0.739068,
+    "total_s": 0.994868
+  }
+}

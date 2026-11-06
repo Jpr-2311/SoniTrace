@@ -1,0 +1,21 @@
+{
+  "original": "unmodified",
+  "manipulated_edits": [
+    {
+      "edit": "cut",
+      "at_s": 2.2999773242630384,
+      "removed_s": 0.3518820861678005
+    },
+    {
+      "edit": "insert_digital_silence",
+      "from_s": 4.1,
+      "to_s": 4.5
+    },
+    {
+      "edit": "copy_overwrite",
+      "source_s": 1.0,
+      "dest_s": 6.0,
+      "length_s": 0.5
+    }
+  ]
+}

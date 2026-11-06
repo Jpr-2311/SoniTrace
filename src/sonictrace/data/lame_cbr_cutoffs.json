@@ -1,0 +1,400 @@
+{
+ "description": "Measured -6 dB cutoff of libmp3lame CBR encodes (broadband noise); used by test D4 when the LAME tag records no low-pass. Entries whose drop was not steep are unusable (steep=false).",
+ "encoder": "libmp3lame",
+ "ffmpeg": "ffmpeg version 7.0.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+ "generated_by": "scripts/verify_lame_lowpass.py",
+ "entries": [
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 32,
+   "cutoff_hz": 8214.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 40,
+   "cutoff_hz": 9921.4,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 48,
+   "cutoff_hz": 11008.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 56,
+   "cutoff_hz": 15094.8,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 64,
+   "cutoff_hz": 16505.2,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 80,
+   "cutoff_hz": 20004.3,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 96,
+   "cutoff_hz": 20025.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 112,
+   "cutoff_hz": 20031.3,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 128,
+   "cutoff_hz": 20031.3,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 160,
+   "cutoff_hz": 20020.5,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 192,
+   "cutoff_hz": 20025.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 224,
+   "cutoff_hz": 20020.5,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 256,
+   "cutoff_hz": 20020.5,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 1,
+   "bitrate_kbps": 320,
+   "cutoff_hz": 20025.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 32,
+   "cutoff_hz": 5394.1,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 40,
+   "cutoff_hz": 6756.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 48,
+   "cutoff_hz": 7402.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 56,
+   "cutoff_hz": 7542.0,
+   "steep": false
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 64,
+   "cutoff_hz": 8979.3,
+   "steep": false
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 80,
+   "cutoff_hz": 10981.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 96,
+   "cutoff_hz": 12769.2,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 112,
+   "cutoff_hz": 15110.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 128,
+   "cutoff_hz": 16532.1,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 160,
+   "cutoff_hz": 17248.1,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 192,
+   "cutoff_hz": 18637.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 224,
+   "cutoff_hz": 19331.4,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 256,
+   "cutoff_hz": 19331.4,
+   "steep": true
+  },
+  {
+   "sample_rate": 44100,
+   "channels": 2,
+   "bitrate_kbps": 320,
+   "cutoff_hz": 20025.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 32,
+   "cutoff_hz": 8021.5,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 40,
+   "cutoff_hz": 10171.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 48,
+   "cutoff_hz": 11168.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 56,
+   "cutoff_hz": 14835.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 64,
+   "cutoff_hz": 16459.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 80,
+   "cutoff_hz": 20261.7,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 96,
+   "cutoff_hz": 20291.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 112,
+   "cutoff_hz": 20302.7,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 128,
+   "cutoff_hz": 20296.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 160,
+   "cutoff_hz": 20291.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 192,
+   "cutoff_hz": 20296.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 224,
+   "cutoff_hz": 20296.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 256,
+   "cutoff_hz": 20291.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 1,
+   "bitrate_kbps": 320,
+   "cutoff_hz": 20291.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 32,
+   "cutoff_hz": 5707.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 40,
+   "cutoff_hz": 7377.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 48,
+   "cutoff_hz": 7160.2,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 56,
+   "cutoff_hz": 7962.9,
+   "steep": false
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 64,
+   "cutoff_hz": 9416.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 80,
+   "cutoff_hz": 9585.9,
+   "steep": false
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 96,
+   "cutoff_hz": 11484.4,
+   "steep": false
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 112,
+   "cutoff_hz": 15627.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 128,
+   "cutoff_hz": 16476.6,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 160,
+   "cutoff_hz": 17267.6,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 192,
+   "cutoff_hz": 18779.3,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 224,
+   "cutoff_hz": 19541.0,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 256,
+   "cutoff_hz": 19546.9,
+   "steep": true
+  },
+  {
+   "sample_rate": 48000,
+   "channels": 2,
+   "bitrate_kbps": 320,
+   "cutoff_hz": 20291.0,
+   "steep": true
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+# --- Python build / install artefacts ---------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+pip-wheel-metadata/
+
+# --- virtual environments -----------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- test, coverage and tool caches ------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.ipynb_checkpoints/
+
+# --- generated datasets and run outputs (reproducible: see README) ----------
+datasets/
+output/
+
+# --- local secrets / configuration (SonicTrace reads none; never commit) ----
+.env
+.env.*
+
+# --- editors and operating systems -------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- logs and temporary files ------------------------------------------------
+*.log
+*.tmp

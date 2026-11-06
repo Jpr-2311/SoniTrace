@@ -1,0 +1,3893 @@
+{
+  "methodology_version": "1.2",
+  "files": 70,
+  "analysed": 70,
+  "failed": [],
+  "integrity_all_unchanged": true,
+  "per_technique": {
+    "A1": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 46,
+      "fn": 24,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null,
+      "false_positive_rate": 0.0,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "C1": {
+      "tp": 7,
+      "fp": 2,
+      "tn": 44,
+      "fn": 17,
+      "precision": 0.7777777777777778,
+      "recall": 0.2916666666666667,
+      "f1": 0.42424242424242425,
+      "false_positive_rate": 0.043478260869565216,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "C2": {
+      "tp": 24,
+      "fp": 46,
+      "tn": 0,
+      "fn": 0,
+      "precision": 0.34285714285714286,
+      "recall": 1.0,
+      "f1": 0.5106382978723404,
+      "false_positive_rate": 1.0,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "C3": {
+      "tp": 24,
+      "fp": 45,
+      "tn": 1,
+      "fn": 0,
+      "precision": 0.34782608695652173,
+      "recall": 1.0,
+      "f1": 0.5161290322580645,
+      "false_positive_rate": 0.9782608695652174,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "C4": {
+      "tp": 3,
+      "fp": 2,
+      "tn": 44,
+      "fn": 21,
+      "precision": 0.6,
+      "recall": 0.125,
+      "f1": 0.20689655172413793,
+      "false_positive_rate": 0.043478260869565216,
+      "n": 70,
+      "label": "edited",
+      "applicable": 69
+    },
+    "C5": {
+      "tp": 4,
+      "fp": 3,
+      "tn": 43,
+      "fn": 20,
+      "precision": 0.5714285714285714,
+      "recall": 0.16666666666666666,
+      "f1": 0.25806451612903225,
+      "false_positive_rate": 0.06521739130434782,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "C6": {
+      "tp": 4,
+      "fp": 2,
+      "tn": 44,
+      "fn": 20,
+      "precision": 0.6666666666666666,
+      "recall": 0.16666666666666666,
+      "f1": 0.26666666666666666,
+      "false_positive_rate": 0.043478260869565216,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "C7": {
+      "tp": 3,
+      "fp": 0,
+      "tn": 46,
+      "fn": 21,
+      "precision": 1.0,
+      "recall": 0.125,
+      "f1": 0.2222222222222222,
+      "false_positive_rate": 0.0,
+      "n": 70,
+      "label": "edited",
+      "applicable": 18
+    },
+    "D1": {
+      "tp": 10,
+      "fp": 2,
+      "tn": 56,
+      "fn": 2,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334,
+      "false_positive_rate": 0.034482758620689655,
+      "n": 70,
+      "label": "compressed",
+      "applicable": 70
+    },
+    "D2": {
+      "tp": 10,
+      "fp": 0,
+      "tn": 58,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "false_positive_rate": 0.0,
+      "n": 70,
+      "label": "compressed",
+      "applicable": 70
+    },
+    "D3": {
+      "tp": 2,
+      "fp": 0,
+      "tn": 66,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "false_positive_rate": 0.0,
+      "n": 70,
+      "label": "gain_edit",
+      "applicable": 66
+    },
+    "D4": {
+      "tp": 2,
+      "fp": 0,
+      "tn": 66,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "false_positive_rate": 0.0,
+      "n": 70,
+      "label": "transcoded_mp3",
+      "applicable": 70
+    },
+    "E1": {
+      "tp": 2,
+      "fp": 10,
+      "tn": 48,
+      "fn": 10,
+      "precision": 0.16666666666666666,
+      "recall": 0.16666666666666666,
+      "f1": 0.16666666666666666,
+      "false_positive_rate": 0.1724137931034483,
+      "n": 70,
+      "label": "resampled",
+      "applicable": 70
+    },
+    "E2": {
+      "tp": 4,
+      "fp": 4,
+      "tn": 54,
+      "fn": 8,
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4,
+      "false_positive_rate": 0.06896551724137931,
+      "n": 70,
+      "label": "resampled",
+      "applicable": 70
+    },
+    "E3": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 58,
+      "fn": 12,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null,
+      "false_positive_rate": 0.0,
+      "n": 70,
+      "label": "resampled",
+      "applicable": 70
+    },
+    "F1": {
+      "tp": 15,
+      "fp": 21,
+      "tn": 25,
+      "fn": 9,
+      "precision": 0.4166666666666667,
+      "recall": 0.625,
+      "f1": 0.5,
+      "false_positive_rate": 0.45652173913043476,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "F2": {
+      "tp": 24,
+      "fp": 46,
+      "tn": 0,
+      "fn": 0,
+      "precision": 0.34285714285714286,
+      "recall": 1.0,
+      "f1": 0.5106382978723404,
+      "false_positive_rate": 1.0,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "F3": {
+      "tp": 11,
+      "fp": 13,
+      "tn": 33,
+      "fn": 13,
+      "precision": 0.4583333333333333,
+      "recall": 0.4583333333333333,
+      "f1": 0.4583333333333333,
+      "false_positive_rate": 0.2826086956521739,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "F4": {
+      "tp": 13,
+      "fp": 17,
+      "tn": 29,
+      "fn": 11,
+      "precision": 0.43333333333333335,
+      "recall": 0.5416666666666666,
+      "f1": 0.4814814814814815,
+      "false_positive_rate": 0.3695652173913043,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    },
+    "F5": {
+      "tp": 24,
+      "fp": 46,
+      "tn": 0,
+      "fn": 0,
+      "precision": 0.34285714285714286,
+      "recall": 1.0,
+      "f1": 0.5106382978723404,
+      "false_positive_rate": 1.0,
+      "n": 70,
+      "label": "edited",
+      "applicable": 70
+    }
+  },
+  "threshold_sensitivity": {
+    "C1": [
+      {
+        "factor": 0.5,
+        "threshold": 2.0,
+        "precision": 0.6923076923076923,
+        "recall": 0.375,
+        "false_positive_rate": 0.08695652173913043,
+        "f1": 0.48648648648648646
+      },
+      {
+        "factor": 0.75,
+        "threshold": 3.0,
+        "precision": 0.7272727272727273,
+        "recall": 0.3333333333333333,
+        "false_positive_rate": 0.06521739130434782,
+        "f1": 0.4571428571428572
+      },
+      {
+        "factor": 1.0,
+        "threshold": 4.0,
+        "precision": 0.7777777777777778,
+        "recall": 0.2916666666666667,
+        "false_positive_rate": 0.043478260869565216,
+        "f1": 0.42424242424242425
+      },
+      {
+        "factor": 1.25,
+        "threshold": 5.0,
+        "precision": 0.75,
+        "recall": 0.25,
+        "false_positive_rate": 0.043478260869565216,
+        "f1": 0.375
+      },
+      {
+        "factor": 1.5,
+        "threshold": 6.0,
+        "precision": 0.8571428571428571,
+        "recall": 0.25,
+        "false_positive_rate": 0.021739130434782608,
+        "f1": 0.3870967741935483
+      },
+      {
+        "factor": 2.0,
+        "threshold": 8.0,
+        "precision": 0.8571428571428571,
+        "recall": 0.25,
+        "false_positive_rate": 0.021739130434782608,
+        "f1": 0.3870967741935483
+      }
+    ],
+    "C2": [
+      {
+        "factor": 0.5,
+        "threshold": 3.0,
+        "precision": 0.34285714285714286,
+        "recall": 1.0,
+        "false_positive_rate": 1.0,
+        "f1": 0.5106382978723404
+      },
+      {
+        "factor": 0.75,
+        "threshold": 4.5,
+        "precision": 0.34285714285714286,
+        "recall": 1.0,
+        "false_positive_rate": 1.0,
+        "f1": 0.5106382978723404
+      },
+      {
+        "factor": 1.0,
+        "threshold": 6.0,
+        "precision": 0.34285714285714286,
+        "recall": 1.0,
+        "false_positive_rate": 1.0,
+        "f1": 0.5106382978723404
+      },
+      {
+        "factor": 1.25,
+        "threshold": 7.5,
+        "precision": 0.34782608695652173,
+        "recall": 1.0,
+        "false_positive_rate": 0.9782608695652174,
+        "f1": 0.5161290322580645
+      },
+      {
+        "factor": 1.5,
+        "threshold": 9.0,
+        "precision": 0.3382352941176471,
+        "recall": 0.9583333333333334,
+        "false_positive_rate": 0.9782608695652174,
+        "f1": 0.5
+      },
+      {
+        "factor": 2.0,
+        "threshold": 12.0,
+        "precision": 0.34545454545454546,
+        "recall": 0.7916666666666666,
+        "false_positive_rate": 0.782608695652174,
+        "f1": 0.4810126582278481
+      }
+    ],
+    "C3": [
+      {
+        "factor": 0.5,
+        "threshold": 3.0,
+        "precision": 0.34285714285714286,
+        "recall": 1.0,
+        "false_positive_rate": 1.0,
+        "f1": 0.5106382978723404
+      },
+      {
+        "factor": 0.75,
+        "threshold": 4.5,
+        "precision": 0.34285714285714286,
+        "recall": 1.0,
+        "false_positive_rate": 1.0,
+        "f1": 0.5106382978723404
+      },
+      {
+        "factor": 1.0,
+        "threshold": 6.0,
+        "precision": 0.34782608695652173,
+        "recall": 1.0,
+        "false_positive_rate": 0.9782608695652174,
+        "f1": 0.5161290322580645
+      },
+      {
+        "factor": 1.25,
+        "threshold": 7.5,
+        "precision": 0.35294117647058826,
+        "recall": 1.0,
+        "false_positive_rate": 0.9565217391304348,
+        "f1": 0.5217391304347826
+      },
+      {
+        "factor": 1.5,
+        "threshold": 9.0,
+        "precision": 0.39285714285714285,
+        "recall": 0.9166666666666666,
+        "false_positive_rate": 0.7391304347826086,
+        "f1": 0.55
+      },
+      {
+        "factor": 2.0,
+        "threshold": 12.0,
+        "precision": 0.41025641025641024,
+        "recall": 0.6666666666666666,
+        "false_positive_rate": 0.5,
+        "f1": 0.5079365079365079
+      }
+    ],
+    "C4": [
+      {
+        "factor": 0.5,
+        "threshold": 2.0,
+        "precision": 0.39622641509433965,
+        "recall": 0.875,
+        "false_positive_rate": 0.6956521739130435,
+        "f1": 0.5454545454545454
+      },
+      {
+        "factor": 0.75,
+        "threshold": 3.0,
+        "precision": 0.4074074074074074,
+        "recall": 0.4583333333333333,
+        "false_positive_rate": 0.34782608695652173,
+        "f1": 0.4313725490196078
+      },
+      {
+        "factor": 1.0,
+        "threshold": 4.0,
+        "precision": 0.5714285714285714,
+        "recall": 0.3333333333333333,
+        "false_positive_rate": 0.13043478260869565,
+        "f1": 0.4210526315789474
+      },
+      {
+        "factor": 1.25,
+        "threshold": 5.0,
+        "precision": 0.7142857142857143,
+        "recall": 0.20833333333333334,
+        "false_positive_rate": 0.043478260869565216,
+        "f1": 0.3225806451612903
+      },
+      {
+        "factor": 1.5,
+        "threshold": 6.0,
+        "precision": 0.8333333333333334,
+        "recall": 0.20833333333333334,
+        "false_positive_rate": 0.021739130434782608,
+        "f1": 0.33333333333333337
+      },
+      {
+        "factor": 2.0,
+        "threshold": 8.0,
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.0,
+        "f1": 0.2857142857142857
+      }
+    ],
+    "C5": [
+      {
+        "factor": 0.5,
+        "threshold": 5.0,
+        "precision": 0.5714285714285714,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.06521739130434782,
+        "f1": 0.25806451612903225
+      },
+      {
+        "factor": 0.75,
+        "threshold": 7.5,
+        "precision": 0.5714285714285714,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.06521739130434782,
+        "f1": 0.25806451612903225
+      },
+      {
+        "factor": 1.0,
+        "threshold": 10.0,
+        "precision": 0.5714285714285714,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.06521739130434782,
+        "f1": 0.25806451612903225
+      },
+      {
+        "factor": 1.25,
+        "threshold": 12.5,
+        "precision": 0.6666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.043478260869565216,
+        "f1": 0.26666666666666666
+      },
+      {
+        "factor": 1.5,
+        "threshold": 15.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.043478260869565216,
+        "f1": 0.26666666666666666
+      },
+      {
+        "factor": 2.0,
+        "threshold": 20.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.043478260869565216,
+        "f1": 0.26666666666666666
+      }
+    ],
+    "C6": [
+      {
+        "factor": 0.5,
+        "threshold": 0.49,
+        "precision": 0.3230769230769231,
+        "recall": 0.875,
+        "false_positive_rate": 0.9565217391304348,
+        "f1": 0.47191011235955055
+      },
+      {
+        "factor": 0.75,
+        "threshold": 0.735,
+        "precision": 0.358974358974359,
+        "recall": 0.5833333333333334,
+        "false_positive_rate": 0.5434782608695652,
+        "f1": 0.4444444444444445
+      },
+      {
+        "factor": 1.0,
+        "threshold": 0.98,
+        "precision": 0.6666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.043478260869565216,
+        "f1": 0.26666666666666666
+      },
+      {
+        "factor": 1.25,
+        "threshold": 1.225,
+        "precision": null,
+        "recall": 0.0,
+        "false_positive_rate": 0.0,
+        "f1": null
+      },
+      {
+        "factor": 1.5,
+        "threshold": 1.47,
+        "precision": null,
+        "recall": 0.0,
+        "false_positive_rate": 0.0,
+        "f1": null
+      },
+      {
+        "factor": 2.0,
+        "threshold": 1.96,
+        "precision": null,
+        "recall": 0.0,
+        "false_positive_rate": 0.0,
+        "f1": null
+      }
+    ],
+    "C7": [
+      {
+        "factor": 0.5,
+        "threshold": 3.0,
+        "precision": 0.35294117647058826,
+        "recall": 0.25,
+        "false_positive_rate": 0.2391304347826087,
+        "f1": 0.2926829268292683
+      },
+      {
+        "factor": 0.75,
+        "threshold": 4.5,
+        "precision": 0.5,
+        "recall": 0.125,
+        "false_positive_rate": 0.06521739130434782,
+        "f1": 0.2
+      },
+      {
+        "factor": 1.0,
+        "threshold": 6.0,
+        "precision": 1.0,
+        "recall": 0.125,
+        "false_positive_rate": 0.0,
+        "f1": 0.2222222222222222
+      },
+      {
+        "factor": 1.25,
+        "threshold": 7.5,
+        "precision": 1.0,
+        "recall": 0.125,
+        "false_positive_rate": 0.0,
+        "f1": 0.2222222222222222
+      },
+      {
+        "factor": 1.5,
+        "threshold": 9.0,
+        "precision": 1.0,
+        "recall": 0.125,
+        "false_positive_rate": 0.0,
+        "f1": 0.2222222222222222
+      },
+      {
+        "factor": 2.0,
+        "threshold": 12.0,
+        "precision": 1.0,
+        "recall": 0.125,
+        "false_positive_rate": 0.0,
+        "f1": 0.2222222222222222
+      }
+    ],
+    "D1": [
+      {
+        "factor": 0.5,
+        "threshold": 12.5,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "false_positive_rate": 0.034482758620689655,
+        "f1": 0.8333333333333334
+      },
+      {
+        "factor": 0.75,
+        "threshold": 18.75,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "false_positive_rate": 0.034482758620689655,
+        "f1": 0.8333333333333334
+      },
+      {
+        "factor": 1.0,
+        "threshold": 25.0,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "false_positive_rate": 0.034482758620689655,
+        "f1": 0.8333333333333334
+      },
+      {
+        "factor": 1.25,
+        "threshold": 31.25,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "false_positive_rate": 0.034482758620689655,
+        "f1": 0.8333333333333334
+      },
+      {
+        "factor": 1.5,
+        "threshold": 37.5,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "false_positive_rate": 0.034482758620689655,
+        "f1": 0.8333333333333334
+      },
+      {
+        "factor": 2.0,
+        "threshold": 50.0,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "false_positive_rate": 0.0,
+        "f1": 0.5
+      }
+    ],
+    "D2": [
+      {
+        "factor": 0.5,
+        "threshold": 0.015,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "false_positive_rate": 0.034482758620689655,
+        "f1": 0.923076923076923
+      },
+      {
+        "factor": 0.75,
+        "threshold": 0.0225,
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "false_positive_rate": 0.017241379310344827,
+        "f1": 0.9600000000000001
+      },
+      {
+        "factor": 1.0,
+        "threshold": 0.03,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "false_positive_rate": 0.0,
+        "f1": 0.9090909090909091
+      },
+      {
+        "factor": 1.25,
+        "threshold": 0.0375,
+        "precision": 1.0,
+        "recall": 0.5833333333333334,
+        "false_positive_rate": 0.0,
+        "f1": 0.7368421052631579
+      },
+      {
+        "factor": 1.5,
+        "threshold": 0.045,
+        "precision": 1.0,
+        "recall": 0.4166666666666667,
+        "false_positive_rate": 0.0,
+        "f1": 0.5882352941176471
+      },
+      {
+        "factor": 2.0,
+        "threshold": 0.06,
+        "precision": 1.0,
+        "recall": 0.4166666666666667,
+        "false_positive_rate": 0.0,
+        "f1": 0.5882352941176471
+      }
+    ],
+    "D3": [
+      {
+        "factor": 0.5,
+        "threshold": 0.025,
+        "precision": 0.2,
+        "recall": 0.25,
+        "false_positive_rate": 0.06060606060606061,
+        "f1": 0.22222222222222224
+      },
+      {
+        "factor": 0.75,
+        "threshold": 0.037500000000000006,
+        "precision": 0.2,
+        "recall": 0.25,
+        "false_positive_rate": 0.06060606060606061,
+        "f1": 0.22222222222222224
+      },
+      {
+        "factor": 1.0,
+        "threshold": 0.05,
+        "precision": 0.2,
+        "recall": 0.25,
+        "false_positive_rate": 0.06060606060606061,
+        "f1": 0.22222222222222224
+      },
+      {
+        "factor": 1.25,
+        "threshold": 0.0625,
+        "precision": 0.2,
+        "recall": 0.25,
+        "false_positive_rate": 0.06060606060606061,
+        "f1": 0.22222222222222224
+      },
+      {
+        "factor": 1.5,
+        "threshold": 0.07500000000000001,
+        "precision": 0.2,
+        "recall": 0.25,
+        "false_positive_rate": 0.06060606060606061,
+        "f1": 0.22222222222222224
+      },
+      {
+        "factor": 2.0,
+        "threshold": 0.1,
+        "precision": 0.2,
+        "recall": 0.25,
+        "false_positive_rate": 0.06060606060606061,
+        "f1": 0.22222222222222224
+      }
+    ],
+    "E1": [
+      {
+        "factor": 0.5,
+        "threshold": 0.025,
+        "precision": 0.16666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.1724137931034483,
+        "f1": 0.16666666666666666
+      },
+      {
+        "factor": 0.75,
+        "threshold": 0.037500000000000006,
+        "precision": 0.16666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.1724137931034483,
+        "f1": 0.16666666666666666
+      },
+      {
+        "factor": 1.0,
+        "threshold": 0.05,
+        "precision": 0.16666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.1724137931034483,
+        "f1": 0.16666666666666666
+      },
+      {
+        "factor": 1.25,
+        "threshold": 0.0625,
+        "precision": 0.16666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.1724137931034483,
+        "f1": 0.16666666666666666
+      },
+      {
+        "factor": 1.5,
+        "threshold": 0.07500000000000001,
+        "precision": 0.16666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.1724137931034483,
+        "f1": 0.16666666666666666
+      },
+      {
+        "factor": 2.0,
+        "threshold": 0.1,
+        "precision": 0.16666666666666666,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.1724137931034483,
+        "f1": 0.16666666666666666
+      }
+    ],
+    "E2": [
+      {
+        "factor": 0.5,
+        "threshold": 10.0,
+        "precision": 0.1951219512195122,
+        "recall": 0.6666666666666666,
+        "false_positive_rate": 0.5689655172413793,
+        "f1": 0.3018867924528301
+      },
+      {
+        "factor": 0.75,
+        "threshold": 15.0,
+        "precision": 0.2608695652173913,
+        "recall": 0.5,
+        "false_positive_rate": 0.29310344827586204,
+        "f1": 0.3428571428571428
+      },
+      {
+        "factor": 1.0,
+        "threshold": 20.0,
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "false_positive_rate": 0.06896551724137931,
+        "f1": 0.4
+      },
+      {
+        "factor": 1.25,
+        "threshold": 25.0,
+        "precision": 0.4,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.05172413793103448,
+        "f1": 0.23529411764705882
+      },
+      {
+        "factor": 1.5,
+        "threshold": 30.0,
+        "precision": 1.0,
+        "recall": 0.08333333333333333,
+        "false_positive_rate": 0.0,
+        "f1": 0.15384615384615385
+      },
+      {
+        "factor": 2.0,
+        "threshold": 40.0,
+        "precision": null,
+        "recall": 0.0,
+        "false_positive_rate": 0.0,
+        "f1": null
+      }
+    ],
+    "F1": [
+      {
+        "factor": 0.5,
+        "threshold": 1.75,
+        "precision": 0.34285714285714286,
+        "recall": 1.0,
+        "false_positive_rate": 1.0,
+        "f1": 0.5106382978723404
+      },
+      {
+        "factor": 0.75,
+        "threshold": 2.625,
+        "precision": 0.34285714285714286,
+        "recall": 1.0,
+        "false_positive_rate": 1.0,
+        "f1": 0.5106382978723404
+      },
+      {
+        "factor": 1.0,
+        "threshold": 3.5,
+        "precision": 0.3384615384615385,
+        "recall": 0.9166666666666666,
+        "false_positive_rate": 0.9347826086956522,
+        "f1": 0.49438202247191015
+      },
+      {
+        "factor": 1.25,
+        "threshold": 4.375,
+        "precision": 0.36538461538461536,
+        "recall": 0.7916666666666666,
+        "false_positive_rate": 0.717391304347826,
+        "f1": 0.5
+      },
+      {
+        "factor": 1.5,
+        "threshold": 5.25,
+        "precision": 0.3695652173913043,
+        "recall": 0.7083333333333334,
+        "false_positive_rate": 0.6304347826086957,
+        "f1": 0.4857142857142857
+      },
+      {
+        "factor": 2.0,
+        "threshold": 7.0,
+        "precision": 0.4166666666666667,
+        "recall": 0.625,
+        "false_positive_rate": 0.45652173913043476,
+        "f1": 0.5
+      }
+    ],
+    "F4": [
+      {
+        "factor": 0.5,
+        "threshold": 0.3,
+        "precision": 0.34285714285714286,
+        "recall": 1.0,
+        "false_positive_rate": 1.0,
+        "f1": 0.5106382978723404
+      },
+      {
+        "factor": 0.75,
+        "threshold": 0.44999999999999996,
+        "precision": 0.3448275862068966,
+        "recall": 0.8333333333333334,
+        "false_positive_rate": 0.8260869565217391,
+        "f1": 0.4878048780487806
+      },
+      {
+        "factor": 1.0,
+        "threshold": 0.6,
+        "precision": 0.43333333333333335,
+        "recall": 0.5416666666666666,
+        "false_positive_rate": 0.3695652173913043,
+        "f1": 0.4814814814814815
+      },
+      {
+        "factor": 1.25,
+        "threshold": 0.75,
+        "precision": 1.0,
+        "recall": 0.20833333333333334,
+        "false_positive_rate": 0.0,
+        "f1": 0.3448275862068966
+      },
+      {
+        "factor": 1.5,
+        "threshold": 0.8999999999999999,
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "false_positive_rate": 0.0,
+        "f1": 0.2857142857142857
+      },
+      {
+        "factor": 2.0,
+        "threshold": 1.2,
+        "precision": null,
+        "recall": 0.0,
+        "false_positive_rate": 0.0,
+        "f1": null
+      }
+    ]
+  },
+  "false_positives": {
+    "C1": [
+      {
+        "sample": "eva_src02__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "2 isolated residual impulse(s); 2 reported."
+      },
+      {
+        "sample": "eva_src03__legit_loop",
+        "condition": "legit_loop",
+        "summary": "3 isolated residual impulse(s); 3 reported."
+      }
+    ],
+    "C2": [
+      {
+        "sample": "eva_src00__clean",
+        "condition": "clean",
+        "summary": "10 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__added_noise",
+        "condition": "added_noise",
+        "summary": "5 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__resample_poly",
+        "condition": "resample_poly",
+        "summary": "10 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__resample_linear",
+        "condition": "resample_linear",
+        "summary": "10 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__resample_48k",
+        "condition": "resample_48k",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "10 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "10 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src00__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "30 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__clean",
+        "condition": "clean",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__added_noise",
+        "condition": "added_noise",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__resample_poly",
+        "condition": "resample_poly",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__resample_linear",
+        "condition": "resample_linear",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__resample_48k",
+        "condition": "resample_48k",
+        "summary": "12 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "11 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "14 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src01__legit_loop",
+        "condition": "legit_loop",
+        "summary": "10 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__clean",
+        "condition": "clean",
+        "summary": "5 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__added_noise",
+        "condition": "added_noise",
+        "summary": "3 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__resample_poly",
+        "condition": "resample_poly",
+        "summary": "4 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "4 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__resample_48k",
+        "condition": "resample_48k",
+        "summary": "6 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "5 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "5 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "5 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "5 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src02__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "55 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__clean",
+        "condition": "clean",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__added_noise",
+        "condition": "added_noise",
+        "summary": "10 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__resample_poly",
+        "condition": "resample_poly",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "14 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_src03__legit_loop",
+        "condition": "legit_loop",
+        "summary": "19 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_ctl00__control",
+        "condition": "control",
+        "summary": "1 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_ctl01__control",
+        "condition": "control",
+        "summary": "13 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_ctl02__control",
+        "condition": "control",
+        "summary": "15 abrupt level change(s) above threshold."
+      },
+      {
+        "sample": "eva_ctl03__control",
+        "condition": "control",
+        "summary": "12 abrupt level change(s) above threshold."
+      }
+    ],
+    "C3": [
+      {
+        "sample": "eva_src00__clean",
+        "condition": "clean",
+        "summary": "4 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__added_noise",
+        "condition": "added_noise",
+        "summary": "3 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__resample_poly",
+        "condition": "resample_poly",
+        "summary": "7 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__resample_linear",
+        "condition": "resample_linear",
+        "summary": "4 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__resample_48k",
+        "condition": "resample_48k",
+        "summary": "4 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "3 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "3 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "3 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "4 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src00__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "25 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__clean",
+        "condition": "clean",
+        "summary": "8 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__added_noise",
+        "condition": "added_noise",
+        "summary": "2 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__resample_poly",
+        "condition": "resample_poly",
+        "summary": "11 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__resample_linear",
+        "condition": "resample_linear",
+        "summary": "4 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__resample_48k",
+        "condition": "resample_48k",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "7 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "6 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "1 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "8 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "8 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src01__legit_loop",
+        "condition": "legit_loop",
+        "summary": "4 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__clean",
+        "condition": "clean",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__added_noise",
+        "condition": "added_noise",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__resample_poly",
+        "condition": "resample_poly",
+        "summary": "10 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__resample_48k",
+        "condition": "resample_48k",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src02__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "22 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__clean",
+        "condition": "clean",
+        "summary": "13 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__added_noise",
+        "condition": "added_noise",
+        "summary": "2 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__resample_poly",
+        "condition": "resample_poly",
+        "summary": "17 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "7 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "16 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "11 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "11 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "14 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "13 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_src03__legit_loop",
+        "condition": "legit_loop",
+        "summary": "19 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_ctl00__control",
+        "condition": "control",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_ctl01__control",
+        "condition": "control",
+        "summary": "9 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_ctl02__control",
+        "condition": "control",
+        "summary": "10 abrupt spectral change(s)."
+      },
+      {
+        "sample": "eva_ctl03__control",
+        "condition": "control",
+        "summary": "12 abrupt spectral change(s)."
+      }
+    ],
+    "C4": [
+      {
+        "sample": "eva_ctl02__control",
+        "condition": "control",
+        "summary": "1 abrupt background change(s) found."
+      },
+      {
+        "sample": "eva_ctl03__control",
+        "condition": "control",
+        "summary": "1 abrupt background change(s) found."
+      }
+    ],
+    "C5": [
+      {
+        "sample": "eva_src00__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "15 interior digital-silence run(s) >= 10 ms."
+      },
+      {
+        "sample": "eva_src01__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "1 interior digital-silence run(s) >= 10 ms."
+      },
+      {
+        "sample": "eva_src02__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "30 interior digital-silence run(s) >= 10 ms."
+      }
+    ],
+    "C6": [
+      {
+        "sample": "eva_src01__legit_loop",
+        "condition": "legit_loop",
+        "summary": "6 verified duplicated segment pair(s)."
+      },
+      {
+        "sample": "eva_src03__legit_loop",
+        "condition": "legit_loop",
+        "summary": "6 verified duplicated segment pair(s)."
+      }
+    ],
+    "D1": [
+      {
+        "sample": "eva_src00__resample_poly",
+        "condition": "resample_poly",
+        "summary": "Steep band limit at 7569 Hz (depth 49 dB)."
+      },
+      {
+        "sample": "eva_src02__resample_poly",
+        "condition": "resample_poly",
+        "summary": "Steep band limit at 10497 Hz (depth 49 dB)."
+      }
+    ],
+    "E1": [
+      {
+        "sample": "eva_src00__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "Content limited to 16462 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src00__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "Content limited to 16468 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src00__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "Content limited to 16478 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src01__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "Content limited to 13291 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src01__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "Content limited to 13286 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src02__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "Content limited to 16527 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src02__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "Content limited to 16516 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src02__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "Content limited to 16532 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "Content limited to 13275 Hz of 22050 Hz; consistent source rates: [32000]."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "Content limited to 13275 Hz of 22050 Hz; consistent source rates: [32000]."
+      }
+    ],
+    "E2": [
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "Periodic residual peak 26 dB at 0.0896 cycles/sample."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "Periodic residual peak 26 dB at 0.0896 cycles/sample."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "Periodic residual peak 26 dB at 0.0896 cycles/sample."
+      },
+      {
+        "sample": "eva_ctl01__control",
+        "condition": "control",
+        "summary": "Periodic residual peak 21 dB at 0.0132 cycles/sample."
+      }
+    ],
+    "F1": [
+      {
+        "sample": "eva_src00__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "11 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src01__legit_loop",
+        "condition": "legit_loop",
+        "summary": "8 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__clean",
+        "condition": "clean",
+        "summary": "5 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__resample_poly",
+        "condition": "resample_poly",
+        "summary": "8 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "8 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__resample_48k",
+        "condition": "resample_48k",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "5 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "5 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "4 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "5 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "5 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__clean",
+        "condition": "clean",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "2 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "2 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "2 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_ctl00__control",
+        "condition": "control",
+        "summary": "6 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_ctl02__control",
+        "condition": "control",
+        "summary": "5 of 23 windows exceed |z| > 3.5 on at least one feature."
+      }
+    ],
+    "F2": [
+      {
+        "sample": "eva_src00__clean",
+        "condition": "clean",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__added_noise",
+        "condition": "added_noise",
+        "summary": "10 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__resample_poly",
+        "condition": "resample_poly",
+        "summary": "10 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__resample_linear",
+        "condition": "resample_linear",
+        "summary": "10 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__resample_48k",
+        "condition": "resample_48k",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src00__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__clean",
+        "condition": "clean",
+        "summary": "13 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__added_noise",
+        "condition": "added_noise",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__resample_poly",
+        "condition": "resample_poly",
+        "summary": "11 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__resample_linear",
+        "condition": "resample_linear",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__resample_48k",
+        "condition": "resample_48k",
+        "summary": "11 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "10 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "10 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "10 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "13 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "12 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src01__legit_loop",
+        "condition": "legit_loop",
+        "summary": "13 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__clean",
+        "condition": "clean",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__added_noise",
+        "condition": "added_noise",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__resample_poly",
+        "condition": "resample_poly",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__resample_48k",
+        "condition": "resample_48k",
+        "summary": "6 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src02__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__clean",
+        "condition": "clean",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__added_noise",
+        "condition": "added_noise",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__resample_poly",
+        "condition": "resample_poly",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "8 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "9 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_src03__legit_loop",
+        "condition": "legit_loop",
+        "summary": "15 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_ctl00__control",
+        "condition": "control",
+        "summary": "6 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_ctl01__control",
+        "condition": "control",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_ctl02__control",
+        "condition": "control",
+        "summary": "13 of 23 windows flagged as anomalous by Isolation Forest."
+      },
+      {
+        "sample": "eva_ctl03__control",
+        "condition": "control",
+        "summary": "7 of 23 windows flagged as anomalous by Isolation Forest."
+      }
+    ],
+    "F3": [
+      {
+        "sample": "eva_src00__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "2 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src02__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "3 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__clean",
+        "condition": "clean",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__resample_poly",
+        "condition": "resample_poly",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src03__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "1 change point(s) in window features."
+      },
+      {
+        "sample": "eva_ctl03__control",
+        "condition": "control",
+        "summary": "1 change point(s) in window features."
+      }
+    ],
+    "F4": [
+      {
+        "sample": "eva_src01__clean",
+        "condition": "clean",
+        "summary": "2 significant window pair(s) (max D = 0.65)."
+      },
+      {
+        "sample": "eva_src01__added_noise",
+        "condition": "added_noise",
+        "summary": "2 significant window pair(s) (max D = 0.67)."
+      },
+      {
+        "sample": "eva_src01__resample_poly",
+        "condition": "resample_poly",
+        "summary": "1 significant window pair(s) (max D = 0.63)."
+      },
+      {
+        "sample": "eva_src01__resample_48k",
+        "condition": "resample_48k",
+        "summary": "1 significant window pair(s) (max D = 0.62)."
+      },
+      {
+        "sample": "eva_src01__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "1 significant window pair(s) (max D = 0.60)."
+      },
+      {
+        "sample": "eva_src01__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "1 significant window pair(s) (max D = 0.63)."
+      },
+      {
+        "sample": "eva_src01__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "2 significant window pair(s) (max D = 0.65)."
+      },
+      {
+        "sample": "eva_src01__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "2 significant window pair(s) (max D = 0.65)."
+      },
+      {
+        "sample": "eva_src03__clean",
+        "condition": "clean",
+        "summary": "1 significant window pair(s) (max D = 0.60)."
+      },
+      {
+        "sample": "eva_src03__added_noise",
+        "condition": "added_noise",
+        "summary": "1 significant window pair(s) (max D = 0.60)."
+      },
+      {
+        "sample": "eva_src03__resample_poly",
+        "condition": "resample_poly",
+        "summary": "1 significant window pair(s) (max D = 0.60)."
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "1 significant window pair(s) (max D = 0.60)."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "1 significant window pair(s) (max D = 0.62)."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "1 significant window pair(s) (max D = 0.63)."
+      },
+      {
+        "sample": "eva_src03__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "1 significant window pair(s) (max D = 0.60)."
+      },
+      {
+        "sample": "eva_src03__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "1 significant window pair(s) (max D = 0.60)."
+      },
+      {
+        "sample": "eva_ctl01__control",
+        "condition": "control",
+        "summary": "1 significant window pair(s) (max D = 0.63)."
+      }
+    ],
+    "F5": [
+      {
+        "sample": "eva_src00__clean",
+        "condition": "clean",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__added_noise",
+        "condition": "added_noise",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__resample_poly",
+        "condition": "resample_poly",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__resample_linear",
+        "condition": "resample_linear",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__resample_48k",
+        "condition": "resample_48k",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src00__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__clean",
+        "condition": "clean",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__added_noise",
+        "condition": "added_noise",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__resample_poly",
+        "condition": "resample_poly",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__resample_linear",
+        "condition": "resample_linear",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__resample_48k",
+        "condition": "resample_48k",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src01__legit_loop",
+        "condition": "legit_loop",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__clean",
+        "condition": "clean",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__added_noise",
+        "condition": "added_noise",
+        "summary": "2 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__resample_poly",
+        "condition": "resample_poly",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__resample_48k",
+        "condition": "resample_48k",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src02__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__clean",
+        "condition": "clean",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__added_noise",
+        "condition": "added_noise",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__resample_poly",
+        "condition": "resample_poly",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "4 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__legit_normalize",
+        "condition": "legit_normalize",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__legit_noise_gate",
+        "condition": "legit_noise_gate",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_src03__legit_loop",
+        "condition": "legit_loop",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_ctl00__control",
+        "condition": "control",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_ctl01__control",
+        "condition": "control",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_ctl02__control",
+        "condition": "control",
+        "summary": "3 positive delta-BIC point(s)."
+      },
+      {
+        "sample": "eva_ctl03__control",
+        "condition": "control",
+        "summary": "4 positive delta-BIC point(s)."
+      }
+    ]
+  },
+  "false_negatives": {
+    "A1": [
+      {
+        "sample": "eva_src00__cut_hard",
+        "condition": "cut_hard",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src00__insert_silence",
+        "condition": "insert_silence",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src00__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src00__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src01__cut_hard",
+        "condition": "cut_hard",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src01__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src01__insert_silence",
+        "condition": "insert_silence",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src01__gain_step",
+        "condition": "gain_step",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src01__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src01__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src02__cut_hard",
+        "condition": "cut_hard",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src02__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src02__insert_silence",
+        "condition": "insert_silence",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src02__gain_step",
+        "condition": "gain_step",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src02__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src03__cut_hard",
+        "condition": "cut_hard",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src03__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src03__insert_silence",
+        "condition": "insert_silence",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src03__gain_step",
+        "condition": "gain_step",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src03__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "Container structure is internally consistent."
+      },
+      {
+        "sample": "eva_src03__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "Container structure is internally consistent."
+      }
+    ],
+    "C1": [
+      {
+        "sample": "eva_src00__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src00__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src00__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src01__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src01__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src02__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src02__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src02__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src02__gain_step",
+        "condition": "gain_step",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src02__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src03__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src03__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src03__gain_step",
+        "condition": "gain_step",
+        "summary": "No isolated waveform discontinuity above threshold."
+      },
+      {
+        "sample": "eva_src03__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No isolated waveform discontinuity above threshold."
+      }
+    ],
+    "C4": [
+      {
+        "sample": "eva_src00__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src00__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src00__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src01__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src01__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src01__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src01__gain_step",
+        "condition": "gain_step",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src01__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src01__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src02__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src02__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src02__gain_step",
+        "condition": "gain_step",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src02__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src03__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src03__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src03__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src03__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      },
+      {
+        "sample": "eva_src03__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No abrupt change of background level or spectrum above threshold."
+      }
+    ],
+    "C5": [
+      {
+        "sample": "eva_src00__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src00__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src00__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src01__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src01__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src01__gain_step",
+        "condition": "gain_step",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src01__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src01__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src02__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src02__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src02__gain_step",
+        "condition": "gain_step",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src02__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src03__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src03__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src03__gain_step",
+        "condition": "gain_step",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src03__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No interior digital silence."
+      },
+      {
+        "sample": "eva_src03__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No interior digital silence."
+      }
+    ],
+    "C6": [
+      {
+        "sample": "eva_src00__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No duplicated segments verified (214 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No duplicated segments verified (229 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src00__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No duplicated segments verified (226 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "No duplicated segments verified (282 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src00__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No duplicated segments verified (321 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src01__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No duplicated segments verified (67 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src01__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No duplicated segments verified (88 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src01__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No duplicated segments verified (436 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src01__gain_step",
+        "condition": "gain_step",
+        "summary": "No duplicated segments verified (203 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src01__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No duplicated segments verified (44 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src02__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No duplicated segments verified (283 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src02__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No duplicated segments verified (439 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src02__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No duplicated segments verified (492 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src02__gain_step",
+        "condition": "gain_step",
+        "summary": "No duplicated segments verified (482 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No duplicated segments verified (355 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src03__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No duplicated segments verified (116 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src03__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No duplicated segments verified (110 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src03__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No duplicated segments verified (498 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src03__gain_step",
+        "condition": "gain_step",
+        "summary": "No duplicated segments verified (133 similarity candidate(s) rejected by NCC)."
+      },
+      {
+        "sample": "eva_src03__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No duplicated segments verified (116 similarity candidate(s) rejected by NCC)."
+      }
+    ],
+    "C7": [
+      {
+        "sample": "eva_src00__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src00__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src00__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src00__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src01__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "50 Hz hum present; phase evolves continuously."
+      },
+      {
+        "sample": "eva_src01__gain_step",
+        "condition": "gain_step",
+        "summary": "50 Hz hum present; phase evolves continuously."
+      },
+      {
+        "sample": "eva_src01__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "50 Hz hum present; phase evolves continuously."
+      },
+      {
+        "sample": "eva_src02__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src02__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src02__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src02__gain_step",
+        "condition": "gain_step",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src02__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src03__cut_hard",
+        "condition": "cut_hard",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src03__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src03__insert_silence",
+        "condition": "insert_silence",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src03__gain_step",
+        "condition": "gain_step",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src03__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      },
+      {
+        "sample": "eva_src03__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "No mains-hum component prominent enough for phase analysis (most recordings on battery devices have none)."
+      }
+    ],
+    "D1": [
+      {
+        "sample": "eva_src01__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "No steep band limit below Nyquist (gradual roll-off or shallow drop)."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "No steep band limit below Nyquist (gradual roll-off or shallow drop)."
+      }
+    ],
+    "D2": [
+      {
+        "sample": "eva_src03__mp3_1gen",
+        "condition": "mp3_1gen",
+        "summary": "Hole ratio 2.73 %: no codec-like spectral holes."
+      },
+      {
+        "sample": "eva_src03__mp3_2gen",
+        "condition": "mp3_2gen",
+        "summary": "Hole ratio 2.74 %: no codec-like spectral holes."
+      }
+    ],
+    "D3": [
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "Sample-value histogram is smooth (no evidence of post-quantisation gain)."
+      },
+      {
+        "sample": "eva_src01__gain_step",
+        "condition": "gain_step",
+        "summary": "Sample-value histogram is smooth (no evidence of post-quantisation gain)."
+      }
+    ],
+    "D4": [
+      {
+        "sample": "eva_src01__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "No codec/bandwidth inconsistency found."
+      },
+      {
+        "sample": "eva_src03__mp3_transcoded",
+        "condition": "mp3_transcoded",
+        "summary": "No codec/bandwidth inconsistency found."
+      }
+    ],
+    "E1": [
+      {
+        "sample": "eva_src00__resample_linear",
+        "condition": "resample_linear",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src00__resample_48k",
+        "condition": "resample_48k",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src01__resample_poly",
+        "condition": "resample_poly",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src01__resample_linear",
+        "condition": "resample_linear",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src01__resample_48k",
+        "condition": "resample_48k",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src02__resample_48k",
+        "condition": "resample_48k",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src03__resample_poly",
+        "condition": "resample_poly",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "Content uses the band up to Nyquist (no upsampling trace)."
+      }
+    ],
+    "E2": [
+      {
+        "sample": "eva_src00__resample_poly",
+        "condition": "resample_poly",
+        "summary": "No periodic residual structure above 20 dB (max 15.0 dB)."
+      },
+      {
+        "sample": "eva_src00__resample_linear",
+        "condition": "resample_linear",
+        "summary": "No periodic residual structure above 20 dB (max 9.4 dB)."
+      },
+      {
+        "sample": "eva_src00__resample_48k",
+        "condition": "resample_48k",
+        "summary": "No periodic residual structure above 20 dB (max 11.4 dB)."
+      },
+      {
+        "sample": "eva_src01__resample_48k",
+        "condition": "resample_48k",
+        "summary": "No periodic residual structure above 20 dB (max 12.5 dB)."
+      },
+      {
+        "sample": "eva_src02__resample_poly",
+        "condition": "resample_poly",
+        "summary": "No periodic residual structure above 20 dB (max 7.1 dB)."
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "No periodic residual structure above 20 dB (max 6.5 dB)."
+      },
+      {
+        "sample": "eva_src02__resample_48k",
+        "condition": "resample_48k",
+        "summary": "No periodic residual structure above 20 dB (max 8.6 dB)."
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "No periodic residual structure above 20 dB (max 16.4 dB)."
+      }
+    ],
+    "E3": [
+      {
+        "sample": "eva_src00__resample_poly",
+        "condition": "resample_poly",
+        "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src00__resample_linear",
+        "condition": "resample_linear",
+        "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src00__resample_48k",
+        "condition": "resample_48k",
+        "summary": "All sources agree on 48000 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src01__resample_poly",
+        "condition": "resample_poly",
+        "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src01__resample_linear",
+        "condition": "resample_linear",
+        "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src01__resample_48k",
+        "condition": "resample_48k",
+        "summary": "All sources agree on 48000 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src02__resample_poly",
+        "condition": "resample_poly",
+        "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src02__resample_linear",
+        "condition": "resample_linear",
+        "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src02__resample_48k",
+        "condition": "resample_48k",
+        "summary": "All sources agree on 48000 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src03__resample_poly",
+        "condition": "resample_poly",
+        "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src03__resample_linear",
+        "condition": "resample_linear",
+        "summary": "All sources agree on 44100 Hz. (A sample rate alone is not evidence of resampling.)"
+      },
+      {
+        "sample": "eva_src03__resample_48k",
+        "condition": "resample_48k",
+        "summary": "All sources agree on 48000 Hz. (A sample rate alone is not evidence of resampling.)"
+      }
+    ],
+    "F1": [
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "4 of 22 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "4 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src01__cut_hard",
+        "condition": "cut_hard",
+        "summary": "0 of 22 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src01__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "0 of 22 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src01__gain_step",
+        "condition": "gain_step",
+        "summary": "4 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src01__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src01__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "3 of 23 windows exceed |z| > 3.5 on at least one feature."
+      },
+      {
+        "sample": "eva_src03__cut_hard",
+        "condition": "cut_hard",
+        "summary": "2 of 21 windows exceed |z| > 3.5 on at least one feature."
+      }
+    ],
+    "F3": [
+      {
+        "sample": "eva_src00__cut_hard",
+        "condition": "cut_hard",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src00__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src01__cut_hard",
+        "condition": "cut_hard",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src01__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src01__gain_step",
+        "condition": "gain_step",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src01__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src01__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src02__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src02__gain_step",
+        "condition": "gain_step",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src02__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "0 change point(s) in window features."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "0 change point(s) in window features."
+      }
+    ],
+    "F4": [
+      {
+        "sample": "eva_src00__cut_hard",
+        "condition": "cut_hard",
+        "summary": "0 significant window pair(s) (max D = 0.51)."
+      },
+      {
+        "sample": "eva_src00__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "0 significant window pair(s) (max D = 0.37)."
+      },
+      {
+        "sample": "eva_src00__gain_step",
+        "condition": "gain_step",
+        "summary": "0 significant window pair(s) (max D = 0.51)."
+      },
+      {
+        "sample": "eva_src00__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "0 significant window pair(s) (max D = 0.53)."
+      },
+      {
+        "sample": "eva_src02__cut_hard",
+        "condition": "cut_hard",
+        "summary": "0 significant window pair(s) (max D = 0.35)."
+      },
+      {
+        "sample": "eva_src02__cut_crossfade",
+        "condition": "cut_crossfade",
+        "summary": "0 significant window pair(s) (max D = 0.47)."
+      },
+      {
+        "sample": "eva_src02__gain_step",
+        "condition": "gain_step",
+        "summary": "0 significant window pair(s) (max D = 0.44)."
+      },
+      {
+        "sample": "eva_src02__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "0 significant window pair(s) (max D = 0.44)."
+      },
+      {
+        "sample": "eva_src02__noise_env_splice",
+        "condition": "noise_env_splice",
+        "summary": "0 significant window pair(s) (max D = 0.49)."
+      },
+      {
+        "sample": "eva_src03__gain_step",
+        "condition": "gain_step",
+        "summary": "0 significant window pair(s) (max D = 0.56)."
+      },
+      {
+        "sample": "eva_src03__copy_overwrite",
+        "condition": "copy_overwrite",
+        "summary": "0 significant window pair(s) (max D = 0.49)."
+      }
+    ]
+  },
+  "correlated_assessment": {
+    "local_edit_level>=weak": {
+      "tp": 13,
+      "fp": 7,
+      "tn": 39,
+      "fn": 11,
+      "precision": 0.65,
+      "recall": 0.5416666666666666,
+      "f1": 0.5909090909090908,
+      "false_positive_rate": 0.15217391304347827,
+      "n": 70
+    },
+    "local_edit_level>=moderate": {
+      "tp": 11,
+      "fp": 4,
+      "tn": 42,
+      "fn": 13,
+      "precision": 0.7333333333333333,
+      "recall": 0.4583333333333333,
+      "f1": 0.5641025641025641,
+      "false_positive_rate": 0.08695652173913043,
+      "n": 70
+    },
+    "local_edit_level>=strong": {
+      "tp": 4,
+      "fp": 2,
+      "tn": 44,
+      "fn": 20,
+      "precision": 0.6666666666666666,
+      "recall": 0.16666666666666666,
+      "f1": 0.26666666666666666,
+      "false_positive_rate": 0.043478260869565216,
+      "n": 70
+    },
+    "lossy_coding indicated/established": {
+      "tp": 10,
+      "fp": 0,
+      "tn": 58,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "false_positive_rate": 0.0,
+      "n": 70
+    },
+    "lossy_coding possible-or-stronger": {
+      "tp": 12,
+      "fp": 2,
+      "tn": 56,
+      "fn": 0,
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.923076923076923,
+      "false_positive_rate": 0.034482758620689655,
+      "n": 70
+    },
+    "upsampling indicated": {
+      "tp": 2,
+      "fp": 2,
+      "tn": 56,
+      "fn": 10,
+      "precision": 0.5,
+      "recall": 0.16666666666666666,
+      "f1": 0.25,
+      "false_positive_rate": 0.034482758620689655,
+      "n": 70
+    },
+    "transcoding indicated": {
+      "tp": 2,
+      "fp": 0,
+      "tn": 66,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "false_positive_rate": 0.0,
+      "n": 70
+    },
+    "digital_gain_change indicated": {
+      "tp": 2,
+      "fp": 0,
+      "tn": 66,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "false_positive_rate": 0.0,
+      "n": 70
+    }
+  },
+  "local_level_confusion": {
+    "none": {
+      "edited": 11,
+      "not_edited": 39
+    },
+    "weak": {
+      "edited": 2,
+      "not_edited": 3
+    },
+    "moderate": {
+      "edited": 7,
+      "not_edited": 2
+    },
+    "strong": {
+      "edited": 4,
+      "not_edited": 2
+    }
+  },
+  "per_condition_detection_rate": {
+    "added_noise": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.0,
+      "F2": 1.0,
+      "F3": 0.0,
+      "F4": 0.5,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "clean": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.5,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "control": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.5,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.25,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.25,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "copy_overwrite": {
+      "A1": 0.0,
+      "C1": 0.75,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.75,
+      "C7": 0.25,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.75,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.25,
+      "F5": 1.0,
+      "level>=moderate": 0.75,
+      "n": 4
+    },
+    "cut_crossfade": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.5,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "cut_hard": {
+      "A1": 0.0,
+      "C1": 0.25,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.25,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.5,
+      "F4": 0.5,
+      "F5": 1.0,
+      "level>=moderate": 0.25,
+      "n": 4
+    },
+    "gain_step": {
+      "A1": 0.0,
+      "C1": 0.25,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.25,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.5,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.25,
+      "F5": 1.0,
+      "level>=moderate": 0.5,
+      "n": 4
+    },
+    "insert_silence": {
+      "A1": 0.0,
+      "C1": 0.5,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.25,
+      "C5": 1.0,
+      "C6": 0.0,
+      "C7": 0.25,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 1.0,
+      "F2": 1.0,
+      "F3": 1.0,
+      "F4": 1.0,
+      "F5": 1.0,
+      "level>=moderate": 1.0,
+      "n": 4
+    },
+    "legit_loop": {
+      "A1": 0.0,
+      "C1": 0.5,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 1.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.0,
+      "F4": 0.0,
+      "F5": 1.0,
+      "level>=moderate": 1.0,
+      "n": 2
+    },
+    "legit_noise_gate": {
+      "A1": 0.0,
+      "C1": 0.25,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.75,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.75,
+      "F2": 1.0,
+      "F3": 0.75,
+      "F4": 0.5,
+      "F5": 1.0,
+      "level>=moderate": 0.5,
+      "n": 4
+    },
+    "legit_normalize": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.5,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "mp3_1gen": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 1.0,
+      "D2": 0.75,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 1.0,
+      "E2": 0.25,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.25,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "mp3_2gen": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 1.0,
+      "D2": 0.75,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 1.0,
+      "E2": 0.25,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.25,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "mp3_transcoded": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 0.75,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.5,
+      "D2": 1.0,
+      "D3": 0.0,
+      "D4": 0.5,
+      "E1": 0.5,
+      "E2": 0.25,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.25,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "noise_env_splice": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.25,
+      "C5": 0.0,
+      "C6": 0.25,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.5,
+      "F4": 0.75,
+      "F5": 1.0,
+      "level>=moderate": 0.25,
+      "n": 4
+    },
+    "resample_48k": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.0,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.5,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "resample_linear": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.0,
+      "E2": 0.5,
+      "E3": 0.0,
+      "F1": 0.5,
+      "F2": 1.0,
+      "F3": 0.5,
+      "F4": 0.25,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    },
+    "resample_poly": {
+      "A1": 0.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "D1": 0.5,
+      "D2": 0.0,
+      "D3": 0.0,
+      "D4": 0.0,
+      "E1": 0.5,
+      "E2": 0.5,
+      "E3": 0.0,
+      "F1": 0.25,
+      "F2": 1.0,
+      "F3": 0.25,
+      "F4": 0.5,
+      "F5": 1.0,
+      "level>=moderate": 0.0,
+      "n": 4
+    }
+  },
+  "localisation": {
+    "tolerance_s": 0.15,
+    "per_technique": {
+      "C1": {
+        "edited_files": 24,
+        "localised": 7,
+        "rate": 0.2916666666666667
+      },
+      "C2": {
+        "edited_files": 24,
+        "localised": 17,
+        "rate": 0.7083333333333334
+      },
+      "C3": {
+        "edited_files": 24,
+        "localised": 16,
+        "rate": 0.6666666666666666
+      },
+      "C4": {
+        "edited_files": 24,
+        "localised": 1,
+        "rate": 0.041666666666666664
+      },
+      "C5": {
+        "edited_files": 24,
+        "localised": 4,
+        "rate": 0.16666666666666666
+      },
+      "C6": {
+        "edited_files": 24,
+        "localised": 2,
+        "rate": 0.08333333333333333
+      },
+      "C7": {
+        "edited_files": 24,
+        "localised": 3,
+        "rate": 0.125
+      },
+      "D3": {
+        "edited_files": 24,
+        "localised": 2,
+        "rate": 0.08333333333333333
+      },
+      "corroborated_event": {
+        "edited_files": 24,
+        "localised": 5,
+        "rate": 0.20833333333333334
+      }
+    }
+  },
+  "mean_seconds_per_file": 0.4314874642844578
+}
